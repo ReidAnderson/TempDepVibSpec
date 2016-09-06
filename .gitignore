@@ -1,0 +1,11 @@
+# We don't want misc files from latex compilation
+*.log
+*.bbl
+*.aux
+*.blg
+*.gz
+
+# We don't want matlab data files unless we explicitly say so
+*.mat
+
+
