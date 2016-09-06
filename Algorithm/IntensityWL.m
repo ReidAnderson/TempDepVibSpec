@@ -1,0 +1,72 @@
+function [I freq harmModesUsed] = IntensityWL(harmFreq, anharmMat, IRInt, Emin, Emax, vmin, vmax, DOS,v_gr,binSize,steps)
+numSteps = steps;
+all_wn = vmin+v_gr:v_gr:vmax;
+%n = GetRandomVector(harmFreq,anharmMat,Emin,Emax,binSize,3000,length(harmFreq));
+n = zeros(1,length(harmFreq),1);
+g = DOS;
+e = exp(1);
+p = 0.1;
+I = zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr);
+harmModesUsed = zeros(ceil((Emax-Emin)/binSize),length(harmFreq));
+E_freq = zeros(ceil((Emax-Emin)/binSize),1);
+
+tic
+steps = 1;
+while(steps < numSteps)
+    n_old = n;
+    rnums = rand(length(n));
+    for i = 1:length(n)
+       delta = 0;
+       if rnums(i) < p
+           delta = -1;
+       elseif rnums(i) > 1-p
+           delta = 1;
+       end
+       n(i) = n(i) + delta;
+       if n(i) < 0
+           n(i) = 0;
+       end
+    end
+
+    E_old_bin = ceil((floor(getEnergy(harmFreq,anharmMat,n_old))-Emin)/binSize);
+    E_new_bin = ceil((floor(getEnergy(harmFreq,anharmMat,n))-Emin)/binSize);
+    acc_prob = 1;
+
+    % We automatically reject if the bin is above or below our energy
+    % range
+    if E_new_bin <= 0 || E_new_bin > length(g) || E_old_bin > length(g)
+        acc_prob = 0;
+    elseif E_old_bin > 0 && E_new_bin > 0
+        if g(E_old_bin) < g(E_new_bin) 
+            acc_prob = e^(g(E_old_bin)-g(E_new_bin));
+        else
+            acc_prob = 1;
+        end
+    end
+    
+    acc_rand = rand();
+    AbsVal = 0;
+    if acc_rand < acc_prob
+        AbsVal = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn);
+        I(E_new_bin,:) = I(E_new_bin,:) + AbsVal;
+        harmModesUsed(E_new_bin,:) = harmModesUsed(E_new_bin) + n;
+        E_freq(E_new_bin) = E_freq(E_new_bin)+1;
+        allAbs(steps,1) = E_new_bin;
+    else
+        n=n_old;
+        AbsVal = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn);
+        I(E_old_bin,:) = I(E_old_bin,:) + AbsVal;
+        harmModesUsed(E_old_bin,:) = harmModesUsed(E_old_bin) + n;
+        E_freq(E_old_bin) = E_freq(E_old_bin)+1;
+    end
+    
+    steps = steps+1;
+
+    % Update on how many steps have been performed
+    if mod(steps,10000) == 0
+       steps
+    end
+end
+freq=E_freq;
+toc
+end
