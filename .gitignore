@@ -8,4 +8,7 @@
 # We don't want matlab data files unless we explicitly say so
 *.mat
 
+# We don't want temporary files
+*~
+
 

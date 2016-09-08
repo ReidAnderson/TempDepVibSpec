@@ -91,7 +91,7 @@ while(cont > 0)
     end
 
     % Update as the computation runs
-    if mod(steps,10000) == 0
+    if mod(steps,100000) == 0
         steps
 %         plot(g);
 %         drawnow;

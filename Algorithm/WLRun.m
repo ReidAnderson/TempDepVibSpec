@@ -1,4 +1,4 @@
-function [I_T I freq] = WLRun(molAbbrev, T, DOSexists, runName, IRsteps,DOSiters,DOSsteps,raman)
+function [I_T I freq] = WLRun(molAbbrev, T, DOSexists, runName, IRsteps,DOSiters,DOSsteps,raman,DOScores)
 
 addpath('../Conversions/');
 %freqRun = '-zero';
@@ -32,7 +32,7 @@ maxVec = getMaxOccVec(harmFrequencies,anharmMatrix);
 if DOSexists == 0
     % Calculate the density of states
     % second to last argument is number of independent runs to average over
-    [DOS] = WLPar(harmFrequencies,anharmMatrix,zeropoint,zeropoint+upperEnergy, binSize, maxVec,DOSiters,DOSsteps,1,molAbbrev);
+    [DOS] = WLPar(harmFrequencies,anharmMatrix,zeropoint,zeropoint+upperEnergy, binSize, maxVec,DOSiters,DOSsteps,DOScores,molAbbrev);
     
     % Scale the resulting DOS so that it starts at 0
     zero_indices = DOS == 0;
