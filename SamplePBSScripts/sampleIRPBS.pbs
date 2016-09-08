@@ -1,0 +1,19 @@
+#!/bin/bash -l
+#PBS -l nodes=1:ppn=8,mem=4gb,walltime=23:00:00
+#PBS -M anderson@cs.umn.edu
+#PBS -m abe
+
+module load matlab
+
+PBS_DIR="/home/blankda/and02911/TempDepVibSpec/SamplePBSScripts"
+MOLECULE_ABBREV="ACN"
+VIB_STEPS="1000000"
+DOS_ITERS="20"
+DOS_STEPS="2000000"
+RAMAN="0"
+DOS_PARALLEL_RUNS="100"
+RUN_NAME="9-8-2016-ACN-TestPBS"
+
+cd $PBS_DIR
+
+matlab -nodisplay -r "RunScriptFn $MOLECULE_ABBREV $RUN_NAME $VIB_STEPS $DOS_ITERS $DOS_STEPS $DOS_PARALLEL_RUNS $RAMAN" > $RUN_NAME.log
