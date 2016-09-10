@@ -21,6 +21,7 @@ if numPar > 10
         uncertainty(i,:) = std(allDOS(i,:));
     end
     uncertainty = uncertainty./sqrt(numPar);
-    save(['Results/stdev_' molAbbrev '-' runName 'iter' num2str(iters)],'uncertainty');
+    % For now, don't save uncertainty
+    %save(['Results/stdev_' molAbbrev '-' runName 'iter' num2str(iters)],'uncertainty');
 end
 end
