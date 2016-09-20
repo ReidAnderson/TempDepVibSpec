@@ -111,15 +111,7 @@ else
             B(i) = 1-exp(-(h*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
             %         B(i) = 1;
         end
-        
-        for i = 1:length(DOS)
-            finB = 1;
-            for j=1:length(harmFrequencies)
-                % Compute the overall B effect.
-                h(i,j)*B(j);
-            end
-        end
-        
+
         % Now do a Laplace transform to make I(v,E) into I(v,T)
         % Z is partition function
         Z = 0;
@@ -142,7 +134,7 @@ else
         if ~exist([resultsDir '/TempDepVibSpec/Raman'],'dir')
             mkdir([resultsDir '/TempDepVibSpec/Raman']);
         end
-        save([resultsDir '/TempDepVibSpec/' molAbbrev '/Raman/' runName '-' num2str(T(idx_T))],'I_T')
+        save([resultsDir '/TempDepVibSpec/Raman/' runName '-' num2str(T(idx_T))],'I_T')
     end
 end
 end
