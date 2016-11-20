@@ -4,8 +4,8 @@ allT = zeros(length(T),35000);
 % ACN-1milIR-20iter-1run-208
 %fileBase = 'ACN/ACN-RamanInt100k-Raman-';
 runName = '9-5-2016-IRInt1mil';
-molAbbrev = 'TCNE';
-fileBase = ['../Results/' molAbbrev '/' runName '/TempDepVibSpec/IR/' runName '-'];
+molAbbrev = 'ACN';
+fileBase = ['../Results/' molAbbrev '/' runName '/TempDepVibSpec/Raman/' runName '-'];
 cmap = colormap(jet(length(T)));
 allMax = zeros(length(T),1);
 allSums = zeros(length(T),1);

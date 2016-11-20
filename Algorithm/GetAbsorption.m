@@ -19,5 +19,5 @@ for k=1:length(harmFrequencies)
     end
     sigma_IR = IRInt(k)*(occVec(k)+1);
 
-    output = output + (occVec(k)+1)*sigma_IR.*lor(c_cm.*all_wn,wn_to_hz(del_E),3.3E11);
+    output = output + sigma_IR.*lor(c_cm.*all_wn,wn_to_hz(del_E),3.3E11);
 end
