@@ -16,9 +16,6 @@ allDOS = zeros(numIters,length(g));
 
 while(cont > 0)
     if (cont == 2)
-%         figure
-%         plot(H);
-%         drawnow;
         allDOS(iter,:) = g;
         iter
         steps
@@ -92,9 +89,7 @@ while(cont > 0)
 
     % Update as the computation runs
     if mod(steps,100000) == 0
-        steps
-%         plot(g);
-%         drawnow;
+        disp(steps);
     end
     
     if steps > numSteps || dE_all == 1 

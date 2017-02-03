@@ -9,12 +9,10 @@ load([freqDir 'Freqs/' molAbbrev freqRun '-harmFreq']);
 load([freqDir 'Freqs/' molAbbrev freqRun '-anharmMatrix']);
 load([freqDir 'Freqs/' molAbbrev freqRun '-IRInt']);
 
-% TODO: Just setting the raman activities to equal IRInt is lazy, but it
-% makes things really easy. This should change at some point.
 if raman == 1
     load([freqDir 'Freqs/' molAbbrev freqRun '-RamanAct.mat']);
     RamanInt = RamanActToInt(harmFrequencies,RamanAct,9398.5,300);
-    IRInt = RamanAct;
+    VibInt = RamanAct;
 end
 
 zeropoint = floor(getEnergy(harmFrequencies,anharmMatrix,zeros(length(harmFrequencies),1)))-1;
@@ -29,6 +27,7 @@ kb = 1.3806485*10^-23;
 maxVec = getMaxOccVec(harmFrequencies,anharmMatrix);
 
 if DOSexists == 0
+    disp('Computing DOS');
     % Calculate the density of states
     % second to last argument is number of independent runs to average over
     [DOS] = WLPar(harmFrequencies,anharmMatrix,zeropoint,zeropoint+upperEnergy, binSize, maxVec,DOSiters,DOSsteps,DOScores,molAbbrev);
@@ -53,7 +52,7 @@ vmax = 3500;
 all_wn = vmin:V_gr:vmax;
 % Dummy uncertainty values for now
 % DOS_err = ones(size(DOS));
-[I N h] = IntensityWL(harmFrequencies,anharmMatrix,IRInt,zeropoint,zeropoint+upperEnergy,vmin,vmax,DOS,V_gr,binSize,IRsteps);
+[I N h] = IntensityWL(harmFrequencies,anharmMatrix,VibInt,zeropoint,zeropoint+upperEnergy,vmin,vmax,DOS,V_gr,binSize,IRsteps);
 normalizedI = zeros(size(I,1),size(I,2));
 for i = 1:length(N)
     if N(i) ~= 0
@@ -64,13 +63,9 @@ end
 if ~exist([resultsDir '/EnergyDepVibSpec'],'dir')
     mkdir([resultsDir '/EnergyDepVibSpec']);
 end
-if raman == 0
-    save([resultsDir '/EnergyDepVibSpec/' runName '-I_E'],'normalizedI');
-else
-    save([resultsDir '/EnergyDepVibSpec/' runName '-R_E'],'normalizedI');
-end
 
 if raman==0
+    save([resultsDir '/EnergyDepVibSpec/' runName '-I_E'],'normalizedI');
     % Generate I_T for each of the specified temperatures
     for idx_T = 1:length(T)
         % Do a Laplace transform to make I(v,E) into I(v,T)
@@ -99,6 +94,7 @@ if raman==0
     end
 
 else
+    save([resultsDir '/EnergyDepVibSpec/' runName '-R_E'],'normalizedI');
     % Generate I_T for each of the specified temperatures
     for idx_T = 1:length(T)
         h = 6.626*10^-34;
