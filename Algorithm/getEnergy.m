@@ -1,7 +1,7 @@
 function totalEnergy = getEnergy(harmFrequencies, anharmMat, occVec)
-% I'm inconsistent about the dimensions of occVec that I pass in 
+% There is inconsistent about the dimensions of occVec that I pass in 
 % (Nx1 vs 1xN), so this makes sure that the dimensions are consistent
-% and the matrix operations actually work.
+% and the matrix operations work.
 if (size(occVec,1) > size(occVec,2))
     occVecT = occVec';
 else
