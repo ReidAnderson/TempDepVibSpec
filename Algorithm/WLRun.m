@@ -4,10 +4,17 @@ addpath('../Conversions/');
 %freqRun = '-zero';
 freqRun = '';
 freqDir = ['../Results/' molAbbrev '/'];
-resultsDir = ['../Results/' molAbbrev '/' runName '/'];
+resultsDir = ['../Results/' molAbbrev '/' runName];
 load([freqDir 'Freqs/' molAbbrev freqRun '-harmFreq']);
 load([freqDir 'Freqs/' molAbbrev freqRun '-anharmMatrix']);
 load([freqDir 'Freqs/' molAbbrev freqRun '-IRInt']);
+
+if ~exist([resultsDir],'dir')
+   mkdir([resultsDir]);
+end
+if ~exist([resultsDir '/DOS'],'dir')
+   mkdir([resultsDir '/DOS']);
+end
 
 if raman == 1
     load([freqDir 'Freqs/' molAbbrev freqRun '-RamanAct.mat']);
