@@ -104,15 +104,17 @@ else
     save([resultsDir '/EnergyDepVibSpec/' runName '-R_E'],'normalizedI');
     % Generate I_T for each of the specified temperatures
     for idx_T = 1:length(T)
-        h = 6.626*10^-34;
+        H = 6.626*10^-34;
         c_cm = 2.998*10^10;
 
         B = zeros(length(harmFrequencies),1);
         % We assumed B was 1 up until this point, now we make the adjustment
         % for each temperature
         for i = 1:length(B)
-            B(i) = 1-exp(-(h*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
+            B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
         end
+        
+        
 
         % Do a Laplace transform to make I(v,E) into I(v,T)
         % Z is partition function
