@@ -7,7 +7,7 @@ g = DOS;
 e = exp(1);
 p = 0.1;
 I = zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr);
-harmModesUsed = zeros(ceil((Emax-Emin)/binSize),length(harmFreq));
+harmModesUsed = containers.Map();
 E_freq = zeros(ceil((Emax-Emin)/binSize),1);
 
 tic
@@ -47,17 +47,17 @@ while(steps < numSteps)
     acc_rand = rand();
     AbsVal = 0;
     if acc_rand < acc_prob
-        AbsVal = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn);
+        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_new_bin, harmModesUsed);
         I(E_new_bin,:) = I(E_new_bin,:) + AbsVal;
-        harmModesUsed(E_new_bin,:) = harmModesUsed(E_new_bin) + n;
         E_freq(E_new_bin) = E_freq(E_new_bin)+1;
         allAbs(steps,1) = E_new_bin;
+        harmModesUsed = modesMap;
     else
         n=n_old;
-        AbsVal = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn);
+        [AbsVal harmModesUsed] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_old_bin, harmModesUsed);
         I(E_old_bin,:) = I(E_old_bin,:) + AbsVal;
-        harmModesUsed(E_old_bin,:) = harmModesUsed(E_old_bin) + n;
         E_freq(E_old_bin) = E_freq(E_old_bin)+1;
+        harmModesUsed = modesMap;
     end
     
     steps = steps+1;
