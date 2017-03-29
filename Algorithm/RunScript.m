@@ -5,7 +5,7 @@ T = [T 500 625 750 875 1000 1125 1250 1375 1500];
 molAbbrev = 'CO2';
 % Have we already computed the DOS for this run?
 DOSExists = 1;
-runName = '3-2-2017-Raman';
+runName = '3-27-2017-Raman';
 % How many steps do we want to take in the Monte Carlo that computes the spectra?
 IRSteps = 100000;
 % How many iterations of the WL do we want to perform, and what's the maximum number of steps in each?
