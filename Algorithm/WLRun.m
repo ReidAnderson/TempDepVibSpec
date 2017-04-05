@@ -113,9 +113,10 @@ else
         % for each temperature
         for i = 1:length(B)
             B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
+            h(:,:,i) = h(:,:,i).*1/B(i);
         end
         
-        
+        normalizedI = sum(h,3);
         
 
         % Do a Laplace transform to make I(v,E) into I(v,T)
