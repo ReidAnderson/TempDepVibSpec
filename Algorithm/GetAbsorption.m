@@ -19,7 +19,7 @@ for k=1:length(harmFrequencies)
     
     Evk_contrib = sigma_IR.*lor(c_cm.*all_wn,wn_to_hz(del_E),3.3E11);
     
-    spectra(:,:,k) = Evk_contrib;
+    spectra(E,:,k) = Evk_contrib;
     
     output = output + Evk_contrib;
 end

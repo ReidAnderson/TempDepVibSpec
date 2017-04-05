@@ -55,14 +55,14 @@ while(steps < numSteps)
     acc_rand = rand();
     AbsVal = 0;
     if acc_rand < acc_prob
-        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_new_bin, spectra, harmModesUsed);
+        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_new_bin, spectra);
         I(E_new_bin,:) = I(E_new_bin,:) + AbsVal;
         E_freq(E_new_bin) = E_freq(E_new_bin)+1;
         allAbs(steps,1) = E_new_bin;
         spectra = spectra+modesMap;
     else
         n=n_old;
-        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_old_bin, spectra, harmModesUsed);
+        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_old_bin, spectra);
         I(E_old_bin,:) = I(E_old_bin,:) + AbsVal;
         E_freq(E_old_bin) = E_freq(E_old_bin)+1;
         spectra = spectra+modesMap;
