@@ -21,12 +21,5 @@ for k=1:length(harmFrequencies)
     
     spectra(:,:,k) = Evk_contrib;
     
-    Evk_nz = find(Evk_contrib>0);
-    % In the end, it's only nonzero contributions that matter. Store them in the hashtable
-    for j = 1:length(Evk_nz)
-      key = ['E' num2str(E) 'v' num2str(Evk_nz(j)) 'k' num2str(k)];
-      map(key) = Evk_contrib(Evk_nz(j));
-    end
-    
     output = output + Evk_contrib;
 end
