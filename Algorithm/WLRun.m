@@ -64,6 +64,7 @@ normalizedI = zeros(size(I,1),size(I,2));
 for i = 1:length(N)
     if N(i) ~= 0
         normalizedI(i,:) = I(i,:)./N(i);
+        h(:,:,n) = h(:,:,n)./N(i);
     end
 end
 
@@ -113,6 +114,7 @@ else
         for i = 1:length(B)
             B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
         end
+        
         
         
 

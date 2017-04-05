@@ -1,4 +1,4 @@
-function [I freq harmModesUsed] = IntensityWL(harmFreq, anharmMat, IRInt, Emin, Emax, vmin, vmax, DOS,v_gr,binSize,steps)
+function [I freq spectra] = IntensityWL(harmFreq, anharmMat, IRInt, Emin, Emax, vmin, vmax, DOS,v_gr,binSize,steps)
 numSteps = steps;
 all_wn = vmin+v_gr:v_gr:vmax;
 %n = GetRandomVector(harmFreq,anharmMat,Emin,Emax,binSize,3000,length(harmFreq));
@@ -7,8 +7,16 @@ g = DOS;
 e = exp(1);
 p = 0.1;
 I = zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr);
-harmModesUsed = containers.Map();
+harmModesUsed = [];
 E_freq = zeros(ceil((Emax-Emin)/binSize),1);
+
+for i = 1:length(IRInt)
+  if IRInt(i) > 0
+    harmModesUsed = [harmModesUsed i];
+  end
+end
+
+spectra = zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr,length(harmModesUsed));
 
 tic
 steps = 1;
@@ -47,17 +55,17 @@ while(steps < numSteps)
     acc_rand = rand();
     AbsVal = 0;
     if acc_rand < acc_prob
-        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_new_bin, harmModesUsed);
+        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_new_bin, spectra, harmModesUsed);
         I(E_new_bin,:) = I(E_new_bin,:) + AbsVal;
         E_freq(E_new_bin) = E_freq(E_new_bin)+1;
         allAbs(steps,1) = E_new_bin;
-        harmModesUsed = modesMap;
+        spectra = spectra+modesMap;
     else
         n=n_old;
-        [AbsVal harmModesUsed] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_old_bin, harmModesUsed);
+        [AbsVal modesMap] = GetAbsorption(harmFreq,anharmMat,IRInt,n,all_wn,E_old_bin, spectra, harmModesUsed);
         I(E_old_bin,:) = I(E_old_bin,:) + AbsVal;
         E_freq(E_old_bin) = E_freq(E_old_bin)+1;
-        harmModesUsed = modesMap;
+        spectra = spectra+modesMap;
     end
     
     steps = steps+1;

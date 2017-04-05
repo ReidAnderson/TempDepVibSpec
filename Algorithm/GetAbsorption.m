@@ -1,4 +1,4 @@
-function [output map] = GetAbsorption(harmFrequencies, anharmMatrix, IRInt, occVec, all_wn, E, map)
+function [output spectra] = GetAbsorption(harmFrequencies, anharmMatrix, IRInt, occVec, all_wn, E, spectra)
 % Broadening function used in generating the spectrum
 lor = @(x,x0,s) (1/pi)*(0.5*s./((x-x0).^2+(0.5*s).^2));
 
@@ -18,6 +18,8 @@ for k=1:length(harmFrequencies)
     sigma_IR = IRInt(k)*(occVec(k)+1);
     
     Evk_contrib = sigma_IR.*lor(c_cm.*all_wn,wn_to_hz(del_E),3.3E11);
+    
+    spectra(:,:,k) = Evk_contrib;
     
     Evk_nz = find(Evk_contrib>0);
     % In the end, it's only nonzero contributions that matter. Store them in the hashtable
