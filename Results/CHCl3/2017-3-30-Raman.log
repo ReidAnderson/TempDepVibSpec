@@ -1,0 +1,19144 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Elapsed time is 0.002487 seconds.
+Computing DOS
+Starting parallel pool (parpool) using the 'local' profile ... connected to 8 workers.
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+      100000
+
+
+steps =
+
+       60710
+
+
+iter =
+
+     3
+
+
+steps =
+
+       57471
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+
+steps =
+
+       61538
+
+
+iter =
+
+     3
+
+
+steps =
+
+       77482
+
+
+iter =
+
+     3
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     4
+
+
+steps =
+
+       44717
+
+
+iter =
+
+     4
+
+
+steps =
+
+       60244
+
+
+iter =
+
+     4
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     5
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     5
+
+
+steps =
+
+       83851
+
+
+iter =
+
+     3
+
+
+steps =
+
+       73286
+
+
+iter =
+
+     4
+
+
+steps =
+
+       98788
+
+
+iter =
+
+     3
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     5
+
+
+steps =
+
+       85780
+
+
+iter =
+
+     3
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     5
+
+
+iter =
+
+     2
+
+
+steps =
+
+      106743
+
+      100000
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     6
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     6
+
+
+steps =
+
+       77012
+
+
+iter =
+
+     4
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     6
+
+
+steps =
+
+       91296
+
+
+iter =
+
+     4
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     7
+
+
+steps =
+
+       44096
+
+
+iter =
+
+     6
+
+
+steps =
+
+       88191
+
+
+iter =
+
+     4
+
+
+steps =
+
+       58380
+
+
+iter =
+
+     5
+
+
+iter =
+
+     3
+
+
+steps =
+
+      104338
+
+
+iter =
+
+     4
+
+
+steps =
+
+       42629
+
+
+iter =
+
+     7
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     7
+
+
+steps =
+
+       44717
+
+
+iter =
+
+     5
+
+
+steps =
+
+       50928
+
+
+iter =
+
+     5
+
+
+steps =
+
+       25857
+
+
+iter =
+
+     8
+
+
+steps =
+
+       59001
+
+
+iter =
+
+     6
+
+
+steps =
+
+       30433
+
+
+iter =
+
+     7
+
+
+steps =
+
+       23191
+
+
+iter =
+
+     8
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     6
+
+
+steps =
+
+       19875
+
+
+iter =
+
+     7
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     5
+
+
+steps =
+
+       51411
+
+
+iter =
+
+     8
+
+
+steps =
+
+       31158
+
+
+iter =
+
+     8
+
+
+steps =
+
+       36644
+
+
+iter =
+
+     9
+
+
+steps =
+
+       47823
+
+
+iter =
+
+     9
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    10
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     9
+
+
+steps =
+
+       30378
+
+
+iter =
+
+     6
+
+
+steps =
+
+       24434
+
+
+iter =
+
+     7
+
+
+steps =
+
+       32890
+
+
+iter =
+
+    10
+
+
+steps =
+
+       29677
+
+
+iter =
+
+     8
+
+
+steps =
+
+       26730
+
+
+iter =
+
+    11
+
+
+steps =
+
+       48444
+
+
+iter =
+
+     9
+
+
+steps =
+
+       27881
+
+
+iter =
+
+    10
+
+
+steps =
+
+       56517
+
+
+iter =
+
+     7
+
+
+steps =
+
+       47201
+
+
+iter =
+
+     8
+
+
+steps =
+
+       63349
+
+
+iter =
+
+     6
+
+
+steps =
+
+       19733
+
+
+iter =
+
+     7
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    10
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    11
+
+
+steps =
+
+       24223
+
+
+iter =
+
+     8
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    11
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     9
+
+
+steps =
+
+       16770
+
+
+iter =
+
+    10
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    12
+
+
+steps =
+
+       25049
+
+
+iter =
+
+     9
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    12
+
+
+steps =
+
+       20066
+
+
+iter =
+
+    13
+
+
+steps =
+
+       40456
+
+
+iter =
+
+     8
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    11
+
+
+steps =
+
+       28105
+
+
+iter =
+
+    12
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    11
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    12
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    13
+
+
+steps =
+
+       21967
+
+
+iter =
+
+    14
+
+
+steps =
+
+       35635
+
+
+iter =
+
+    12
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    13
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     9
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    14
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    13
+
+
+steps =
+
+       56517
+
+
+iter =
+
+     9
+
+
+steps =
+
+       19511
+
+
+iter =
+
+    10
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    13
+
+
+steps =
+
+       47201
+
+
+iter =
+
+    10
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    15
+
+
+steps =
+
+       32662
+
+
+iter =
+
+    15
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    14
+
+
+steps =
+
+       39130
+
+
+iter =
+
+    14
+
+
+steps =
+
+       46580
+
+
+iter =
+
+    11
+
+
+steps =
+
+       21639
+
+
+iter =
+
+    12
+
+
+steps =
+
+       28910
+
+
+iter =
+
+    14
+
+
+steps =
+
+       27505
+
+
+iter =
+
+    11
+
+
+steps =
+
+       45338
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    15
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    11
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    12
+
+
+steps =
+
+       35741
+
+
+iter =
+
+    16
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    17
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    15
+
+
+steps =
+
+       29627
+
+
+iter =
+
+    15
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    13
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    13
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    18
+
+
+steps =
+
+       55275
+
+
+iter =
+
+    12
+
+
+steps =
+
+       25773
+
+
+iter =
+
+    16
+
+
+steps =
+
+       51549
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    14
+
+
+steps =
+
+       46823
+
+
+iter =
+
+    14
+
+
+steps =
+
+       24120
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29072
+
+
+iter =
+
+    17
+
+
+steps =
+
+       26164
+
+
+iter =
+
+    15
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    15
+
+
+steps =
+
+       25901
+
+
+iter =
+
+    19
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    13
+
+
+steps =
+
+       54654
+
+
+iter =
+
+    18
+
+
+steps =
+
+       41785
+
+
+iter =
+
+    17
+
+
+steps =
+
+       34922
+
+
+iter =
+
+    17
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    16
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    20
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    18
+
+
+steps =
+
+       37066
+
+
+iter =
+
+    19
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    17
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    16
+
+
+steps =
+
+       25465
+
+Elapsed time is 28.308646 seconds.
+
+steps =
+
+       50763
+
+
+iter =
+
+    14
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    20
+
+
+steps =
+
+       50307
+
+
+iter =
+
+    18
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    18
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    19
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    18
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    17
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    19
+
+
+steps =
+
+       27097
+
+
+iter =
+
+    18
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    19
+
+
+steps =
+
+       13665
+
+
+iter =
+
+    20
+
+
+steps =
+
+       45959
+
+
+iter =
+
+    15
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    16
+
+
+steps =
+
+       25465
+
+Elapsed time is 29.987003 seconds.
+
+steps =
+
+       30605
+
+
+iter =
+
+    20
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    20
+
+
+steps =
+
+       20496
+
+Elapsed time is 30.103480 seconds.
+
+steps =
+
+       24223
+
+
+iter =
+
+    19
+
+
+iter =
+
+     2
+
+
+steps =
+
+       30139
+
+
+iter =
+
+    20
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    19
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    17
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    18
+
+
+steps =
+
+       44096
+
+
+iter =
+
+    20
+
+
+steps =
+
+       66444
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       36023
+
+Elapsed time is 33.168680 seconds.
+
+steps =
+
+       24844
+
+
+iter =
+
+    19
+
+
+steps =
+
+       17001
+
+
+iter =
+
+    20
+
+
+steps =
+
+       31675
+
+Elapsed time is 31.528918 seconds.
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+
+steps =
+
+       27949
+
+Elapsed time is 34.028189 seconds.
+
+steps =
+
+       53412
+
+
+iter =
+
+     4
+
+
+steps =
+
+       50928
+
+Elapsed time is 31.304968 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       19875
+
+Elapsed time is 35.260883 seconds.
+
+steps =
+
+       45338
+
+
+iter =
+
+     5
+
+
+steps =
+
+       82035
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+
+steps =
+
+       78394
+
+
+iter =
+
+     3
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     6
+
+
+steps =
+
+       90651
+
+
+iter =
+
+     3
+
+
+steps =
+
+       84465
+
+
+iter =
+
+     4
+
+
+steps =
+
+       97710
+
+      100000
+
+
+iter =
+
+     2
+
+
+steps =
+
+       72665
+
+
+iter =
+
+     4
+
+
+steps =
+
+       80738
+
+
+iter =
+
+     3
+
+
+steps =
+
+       65063
+
+
+iter =
+
+     3
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     7
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     8
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     5
+
+
+iter =
+
+     3
+
+
+steps =
+
+      104338
+
+
+iter =
+
+     4
+
+
+steps =
+
+       83844
+
+
+iter =
+
+     4
+
+
+steps =
+
+       61486
+
+
+iter =
+
+     6
+
+
+steps =
+
+       51549
+
+
+iter =
+
+     5
+
+
+steps =
+
+       68938
+
+
+iter =
+
+     4
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     4
+
+
+steps =
+
+       29682
+
+
+iter =
+
+     9
+
+
+steps =
+
+       53412
+
+
+iter =
+
+     5
+
+
+steps =
+
+       53036
+
+
+iter =
+
+     5
+
+
+steps =
+
+       36023
+
+
+iter =
+
+     5
+
+
+steps =
+
+       59001
+
+
+iter =
+
+     5
+
+
+steps =
+
+       98847
+
+      100000
+
+
+steps =
+
+       29640
+
+
+iter =
+
+     7
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     6
+
+
+steps =
+
+       19254
+
+
+iter =
+
+     7
+
+
+steps =
+
+       42854
+
+
+iter =
+
+     6
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    10
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    11
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     6
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     8
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     8
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     7
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     6
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     6
+
+
+steps =
+
+       42233
+
+
+iter =
+
+     7
+
+
+iter =
+
+     3
+
+
+steps =
+
+      105580
+
+
+iter =
+
+     4
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     9
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     7
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    12
+
+
+steps =
+
+       22980
+
+
+iter =
+
+     8
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     5
+
+
+steps =
+
+       37962
+
+
+iter =
+
+     9
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     8
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     7
+
+
+steps =
+
+       36023
+
+
+iter =
+
+     9
+
+
+steps =
+
+       25465
+
+
+iter =
+
+     6
+
+
+steps =
+
+       35423
+
+
+iter =
+
+    10
+
+
+steps =
+
+       31289
+
+
+iter =
+
+     9
+
+
+steps =
+
+       48444
+
+
+iter =
+
+     8
+
+
+steps =
+
+       39224
+
+
+iter =
+
+     8
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    11
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    10
+
+
+steps =
+
+       25465
+
+
+iter =
+
+     9
+
+
+steps =
+
+       37265
+
+
+iter =
+
+    13
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    10
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     7
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    10
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    11
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    12
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    11
+
+
+steps =
+
+       31938
+
+
+iter =
+
+     9
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    10
+
+
+steps =
+
+       70180
+
+
+iter =
+
+    14
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    11
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    13
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    10
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    15
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     8
+
+
+steps =
+
+       41081
+
+
+iter =
+
+    12
+
+
+steps =
+
+       29100
+
+
+iter =
+
+    12
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    11
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    11
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    12
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    13
+
+
+steps =
+
+       51368
+
+
+iter =
+
+     9
+
+
+steps =
+
+       58380
+
+
+iter =
+
+    13
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    14
+
+
+steps =
+
+       20937
+
+
+iter =
+
+    15
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    13
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    12
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    16
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    12
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    13
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    14
+
+
+steps =
+
+       19470
+
+
+iter =
+
+    15
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    10
+
+
+steps =
+
+       31720
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    13
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    17
+
+
+steps =
+
+       17391
+
+
+iter =
+
+    18
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    16
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    11
+
+
+steps =
+
+       32169
+
+
+iter =
+
+    15
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    14
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    15
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    14
+
+
+steps =
+
+       33248
+
+
+iter =
+
+    19
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    12
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    18
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    16
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    14
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    15
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    20
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    17
+
+
+steps =
+
+       18728
+
+
+iter =
+
+    18
+
+
+steps =
+
+       25093
+
+Elapsed time is 30.105700 seconds.
+
+steps =
+
+       25883
+
+
+iter =
+
+    13
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    14
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29384
+
+
+iter =
+
+    19
+
+
+steps =
+
+       18396
+
+
+iter =
+
+    20
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    17
+
+
+steps =
+
+       49419
+
+
+iter =
+
+    15
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    16
+
+
+steps =
+
+       20850
+
+
+iter =
+
+    17
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    15
+
+
+steps =
+
+       46580
+
+
+iter =
+
+    17
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    18
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    16
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21354
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    18
+
+
+steps =
+
+       18827
+
+Elapsed time is 29.030258 seconds.
+
+steps =
+
+       26707
+
+
+iter =
+
+    18
+
+
+iter =
+
+     2
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    16
+
+
+steps =
+
+       19524
+
+
+iter =
+
+    17
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    19
+
+
+steps =
+
+       37670
+
+
+iter =
+
+    17
+
+
+steps =
+
+       40370
+
+Elapsed time is 31.043958 seconds.
+
+steps =
+
+       22980
+
+
+iter =
+
+    18
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    19
+
+
+steps =
+
+       30613
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32443
+
+
+iter =
+
+    20
+
+
+steps =
+
+       49065
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    18
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    19
+
+
+steps =
+
+       25465
+
+Elapsed time is 34.646162 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       42854
+
+
+iter =
+
+    19
+
+
+steps =
+
+       77798
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       33641
+
+Elapsed time is 34.894095 seconds.
+
+steps =
+
+       24656
+
+
+iter =
+
+    20
+
+
+steps =
+
+       30433
+
+Elapsed time is 29.219493 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       83844
+
+
+iter =
+
+     4
+
+
+steps =
+
+       89118
+
+
+iter =
+
+     3
+
+
+steps =
+
+       50307
+
+
+iter =
+
+    20
+
+
+steps =
+
+       21738
+
+Elapsed time is 32.010350 seconds.
+
+steps =
+
+       31675
+
+Elapsed time is 33.745167 seconds.
+
+steps =
+
+       36644
+
+
+iter =
+
+     5
+
+
+steps =
+
+       71020
+
+
+iter =
+
+     3
+
+      100000
+
+
+steps =
+
+       48786
+
+
+iter =
+
+     3
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     4
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     6
+
+
+steps =
+
+       65833
+
+
+iter =
+
+     4
+
+
+steps =
+
+       55275
+
+
+iter =
+
+     4
+
+      100000
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     7
+
+
+steps =
+
+       65833
+
+
+iter =
+
+     5
+
+
+iter =
+
+     2
+
+
+steps =
+
+       57759
+
+
+iter =
+
+     5
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     5
+
+      100000
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     6
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     6
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     8
+
+
+steps =
+
+       74979
+
+
+iter =
+
+     3
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     7
+
+
+steps =
+
+       47823
+
+
+iter =
+
+     9
+
+
+steps =
+
+       45338
+
+
+iter =
+
+     6
+
+
+steps =
+
+       20496
+
+
+iter =
+
+     7
+
+
+iter =
+
+     2
+
+
+steps =
+
+      103848
+
+      100000
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     8
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     8
+
+
+iter =
+
+     3
+
+
+steps =
+
+       36644
+
+
+iter =
+
+     7
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     8
+
+
+iter =
+
+     2
+
+
+steps =
+
+      114996
+
+      100000
+
+
+steps =
+
+       57759
+
+
+iter =
+
+     4
+
+
+steps =
+
+       24614
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+steps =
+
+      103168
+
+
+iter =
+
+     3
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     9
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     9
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    10
+
+
+steps =
+
+       31716
+
+
+iter =
+
+     9
+
+
+steps =
+
+      132286
+
+
+iter =
+
+     4
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    10
+
+
+iter =
+
+     3
+
+
+steps =
+
+      122970
+
+
+iter =
+
+     4
+
+
+steps =
+
+       35401
+
+
+iter =
+
+     5
+
+
+steps =
+
+       41612
+
+
+iter =
+
+    10
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     5
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    11
+
+
+steps =
+
+       18916
+
+
+iter =
+
+    12
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     6
+
+
+steps =
+
+       20959
+
+
+iter =
+
+    11
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    12
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    13
+
+
+steps =
+
+       24272
+
+
+iter =
+
+    11
+
+
+steps =
+
+       86328
+
+
+iter =
+
+     4
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     5
+
+
+steps =
+
+       39749
+
+
+iter =
+
+    12
+
+
+steps =
+
+       70801
+
+
+iter =
+
+     5
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     6
+
+
+steps =
+
+       55275
+
+
+iter =
+
+     6
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     7
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    13
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    14
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    15
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    12
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    13
+
+
+steps =
+
+       23121
+
+
+iter =
+
+    14
+
+
+steps =
+
+       41612
+
+
+iter =
+
+     8
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    14
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    16
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    13
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     6
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     7
+
+
+steps =
+
+       21712
+
+
+iter =
+
+     8
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    15
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    16
+
+
+steps =
+
+       28411
+
+
+iter =
+
+     7
+
+
+steps =
+
+       23601
+
+
+iter =
+
+     9
+
+
+steps =
+
+       30252
+
+
+iter =
+
+    17
+
+
+steps =
+
+       37265
+
+
+iter =
+
+    14
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     7
+
+
+steps =
+
+       36644
+
+
+iter =
+
+     9
+
+
+steps =
+
+       19719
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    17
+
+
+steps =
+
+       47823
+
+
+iter =
+
+     8
+
+
+steps =
+
+       27787
+
+
+iter =
+
+    15
+
+
+steps =
+
+       20611
+
+
+iter =
+
+    16
+
+
+steps =
+
+       32553
+
+
+iter =
+
+    15
+
+
+steps =
+
+       30433
+
+
+iter =
+
+     9
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    10
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    11
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    17
+
+
+steps =
+
+       44096
+
+
+iter =
+
+    18
+
+
+steps =
+
+       22205
+
+
+iter =
+
+    19
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22590
+
+
+iter =
+
+    11
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    18
+
+
+steps =
+
+       17391
+
+
+iter =
+
+    19
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    18
+
+
+steps =
+
+       28653
+
+
+iter =
+
+    20
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    17
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     8
+
+
+steps =
+
+       18235
+
+
+iter =
+
+     9
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    10
+
+
+steps =
+
+       29440
+
+
+iter =
+
+    12
+
+
+steps =
+
+       52170
+
+
+iter =
+
+    10
+
+
+steps =
+
+       39336
+
+
+iter =
+
+    11
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    13
+
+
+steps =
+
+       32408
+
+
+iter =
+
+    19
+
+
+steps =
+
+       23300
+
+
+iter =
+
+    18
+
+
+steps =
+
+       51381
+
+
+iter =
+
+    12
+
+
+steps =
+
+       30784
+
+
+iter =
+
+    20
+
+
+steps =
+
+       41612
+
+
+iter =
+
+    20
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    19
+
+
+steps =
+
+       37886
+
+
+iter =
+
+    11
+
+
+steps =
+
+       62107
+
+
+iter =
+
+    13
+
+
+steps =
+
+       91917
+
+Elapsed time is 29.374870 seconds.
+
+steps =
+
+       38507
+
+
+iter =
+
+    12
+
+
+steps =
+
+       20704
+
+
+iter =
+
+    13
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29812
+
+Elapsed time is 26.656498 seconds.
+
+steps =
+
+       33258
+
+
+iter =
+
+    14
+
+
+steps =
+
+       30152
+
+
+iter =
+
+    15
+
+
+steps =
+
+       27949
+
+Elapsed time is 28.948538 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       34281
+
+
+iter =
+
+    20
+
+
+steps =
+
+       36505
+
+
+iter =
+
+    12
+
+
+steps =
+
+       29102
+
+
+iter =
+
+    14
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    13
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    15
+
+
+iter =
+
+     2
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    16
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    14
+
+
+steps =
+
+       61789
+
+
+iter =
+
+     3
+
+
+steps =
+
+       44717
+
+
+iter =
+
+    15
+
+
+steps =
+
+       28386
+
+
+iter =
+
+    17
+
+
+iter =
+
+     2
+
+
+steps =
+
+       92695
+
+
+iter =
+
+     3
+
+
+steps =
+
+       44096
+
+
+iter =
+
+    16
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    16
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    15
+
+
+steps =
+
+       31912
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     4
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    17
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    18
+
+
+steps =
+
+       85221
+
+
+iter =
+
+     3
+
+
+steps =
+
+       91917
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27328
+
+Elapsed time is 29.634073 seconds.
+      100000
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    18
+
+
+steps =
+
+       20100
+
+
+iter =
+
+    19
+
+
+steps =
+
+       47201
+
+
+iter =
+
+     5
+
+
+steps =
+
+       43728
+
+
+iter =
+
+    16
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    18
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     5
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    20
+
+
+steps =
+
+       26425
+
+
+iter =
+
+    19
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    19
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    20
+
+
+steps =
+
+       24844
+
+Elapsed time is 31.577939 seconds.
+
+steps =
+
+       49686
+
+
+iter =
+
+     4
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     6
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    17
+
+
+steps =
+
+       31748
+
+
+iter =
+
+    20
+
+
+steps =
+
+       50588
+
+
+iter =
+
+     6
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     7
+
+
+steps =
+
+       37886
+
+Elapsed time is 34.789574 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+      104840
+
+      100000
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    18
+
+
+steps =
+
+       31054
+
+
+iter =
+
+     8
+
+
+steps =
+
+       72665
+
+
+iter =
+
+     5
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     7
+
+
+steps =
+
+       22759
+
+
+iter =
+
+     8
+
+
+steps =
+
+       33731
+
+
+iter =
+
+    19
+
+
+steps =
+
+       35548
+
+Elapsed time is 36.974594 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       42854
+
+
+iter =
+
+     6
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     9
+
+
+iter =
+
+     3
+
+
+steps =
+
+      123591
+
+
+iter =
+
+     4
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     7
+
+
+steps =
+
+       25465
+
+
+iter =
+
+     5
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    20
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    10
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     6
+
+
+steps =
+
+       33828
+
+Elapsed time is 37.188787 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    10
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    11
+
+
+steps =
+
+       63511
+
+
+iter =
+
+     3
+
+
+steps =
+
+       73216
+
+
+iter =
+
+     3
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     8
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     9
+
+
+steps =
+
+       42763
+
+
+iter =
+
+    11
+
+
+steps =
+
+       37886
+
+
+iter =
+
+    12
+
+
+steps =
+
+       52791
+
+
+iter =
+
+     4
+
+
+steps =
+
+       24166
+
+
+iter =
+
+     7
+
+
+steps =
+
+       19875
+
+
+iter =
+
+     8
+
+
+iter =
+
+     2
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    13
+
+
+steps =
+
+       73907
+
+
+iter =
+
+     4
+
+
+steps =
+
+       31582
+
+
+iter =
+
+    10
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    12
+
+
+steps =
+
+       80485
+
+
+iter =
+
+     3
+
+
+steps =
+
+       44717
+
+
+iter =
+
+     5
+
+
+steps =
+
+       55275
+
+
+iter =
+
+    11
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     9
+
+
+steps =
+
+       65973
+
+
+iter =
+
+     3
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     5
+
+
+steps =
+
+       40905
+
+
+iter =
+
+    13
+
+
+steps =
+
+       44027
+
+
+iter =
+
+    10
+
+
+steps =
+
+       37265
+
+
+iter =
+
+    14
+
+
+steps =
+
+       48444
+
+
+iter =
+
+     6
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    12
+
+
+steps =
+
+       58380
+
+
+iter =
+
+     4
+
+
+steps =
+
+       81359
+
+
+iter =
+
+     4
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     5
+
+
+steps =
+
+       49564
+
+
+iter =
+
+    15
+
+
+steps =
+
+       45959
+
+
+iter =
+
+     6
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    11
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    12
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     7
+
+
+steps =
+
+       55896
+
+
+iter =
+
+     7
+
+
+steps =
+
+       24388
+
+
+iter =
+
+    13
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    14
+
+
+steps =
+
+       65212
+
+
+iter =
+
+    14
+
+
+steps =
+
+       23272
+
+
+iter =
+
+    15
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    13
+
+
+steps =
+
+       45959
+
+
+iter =
+
+     5
+
+
+steps =
+
+       25338
+
+
+iter =
+
+    16
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    17
+
+
+steps =
+
+       50168
+
+
+iter =
+
+     8
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    15
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    14
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     6
+
+
+steps =
+
+       46580
+
+
+iter =
+
+     6
+
+
+steps =
+
+       19359
+
+
+iter =
+
+     7
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    18
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     8
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    16
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    17
+
+
+steps =
+
+       53412
+
+
+iter =
+
+     8
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    19
+
+
+steps =
+
+       31296
+
+
+iter =
+
+    18
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    15
+
+
+steps =
+
+       23078
+
+
+iter =
+
+     7
+
+
+steps =
+
+       27296
+
+
+iter =
+
+     9
+
+
+steps =
+
+       37016
+
+
+iter =
+
+     9
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     9
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    10
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     8
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    20
+
+
+steps =
+
+       18633
+
+Elapsed time is 27.363699 seconds.
+
+steps =
+
+       19875
+
+
+iter =
+
+    11
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    19
+
+
+steps =
+
+       23213
+
+
+iter =
+
+    20
+
+
+steps =
+
+       40091
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    10
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    11
+
+
+steps =
+
+       72665
+
+
+iter =
+
+    10
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    17
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    18
+
+
+steps =
+
+       39749
+
+
+iter =
+
+    17
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     9
+
+
+steps =
+
+       22686
+
+
+iter =
+
+    10
+
+
+iter =
+
+     2
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    11
+
+
+steps =
+
+       37714
+
+
+iter =
+
+    12
+
+
+steps =
+
+       61147
+
+
+iter =
+
+    19
+
+
+steps =
+
+       26524
+
+Elapsed time is 32.924990 seconds.
+
+steps =
+
+       25465
+
+
+iter =
+
+    18
+
+
+steps =
+
+       24661
+
+
+iter =
+
+    12
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    19
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    11
+
+
+steps =
+
+       42341
+
+
+iter =
+
+    13
+
+
+steps =
+
+       60316
+
+
+iter =
+
+     3
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    12
+
+
+steps =
+
+       45959
+
+
+iter =
+
+    13
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    20
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    20
+
+
+steps =
+
+       28269
+
+
+iter =
+
+    12
+
+
+steps =
+
+       18442
+
+
+iter =
+
+    13
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     4
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    14
+
+
+steps =
+
+       46086
+
+
+iter =
+
+    13
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    14
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    15
+
+
+steps =
+
+       28570
+
+Elapsed time is 32.076164 seconds.
+
+steps =
+
+       23601
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     5
+
+
+steps =
+
+       29191
+
+Elapsed time is 32.159960 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       60152
+
+
+iter =
+
+     3
+
+
+steps =
+
+       49065
+
+
+iter =
+
+    15
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     6
+
+
+steps =
+
+       52791
+
+
+iter =
+
+    14
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    16
+
+
+steps =
+
+       57138
+
+
+iter =
+
+     4
+
+
+iter =
+
+     2
+
+
+steps =
+
+       39388
+
+
+iter =
+
+    15
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    15
+
+
+steps =
+
+       19536
+
+
+iter =
+
+    16
+
+
+steps =
+
+       62451
+
+
+iter =
+
+     3
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     5
+
+
+steps =
+
+       47201
+
+
+iter =
+
+    16
+
+
+steps =
+
+       25107
+
+
+iter =
+
+    16
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    17
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     7
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    17
+
+
+steps =
+
+       45777
+
+
+iter =
+
+    17
+
+
+steps =
+
+       62284
+
+
+iter =
+
+     3
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    18
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    19
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     8
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    18
+
+
+steps =
+
+       52170
+
+
+iter =
+
+     4
+
+
+steps =
+
+       26048
+
+
+iter =
+
+     6
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     4
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    17
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    18
+
+
+steps =
+
+       31054
+
+
+iter =
+
+     5
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     7
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    20
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    19
+
+
+steps =
+
+       23601
+
+
+iter =
+
+     6
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     8
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     5
+
+
+steps =
+
+       43949
+
+
+iter =
+
+    18
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     9
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    10
+
+
+steps =
+
+       33672
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    20
+
+
+steps =
+
+       34008
+
+
+iter =
+
+    20
+
+
+steps =
+
+       39749
+
+
+iter =
+
+     7
+
+
+steps =
+
+       22980
+
+
+iter =
+
+     9
+
+
+steps =
+
+       25465
+
+Elapsed time is 33.058278 seconds.
+
+steps =
+
+       24958
+
+
+iter =
+
+     8
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     6
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    19
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    20
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    11
+
+
+steps =
+
+       22572
+
+
+iter =
+
+    12
+
+
+steps =
+
+       26561
+
+Elapsed time is 30.454052 seconds.
+
+steps =
+
+       31675
+
+Elapsed time is 29.702093 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       29967
+
+Elapsed time is 35.741520 seconds.
+
+steps =
+
+       23601
+
+
+iter =
+
+     9
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    10
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    11
+
+
+steps =
+
+       44096
+
+
+iter =
+
+     7
+
+
+steps =
+
+       21117
+
+
+iter =
+
+     8
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    13
+
+
+steps =
+
+       28339
+
+
+iter =
+
+    10
+
+
+steps =
+
+       70735
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    11
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    12
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    13
+
+
+steps =
+
+       24220
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       30645
+
+
+iter =
+
+    14
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    15
+
+
+steps =
+
+       32471
+
+
+iter =
+
+    14
+
+
+steps =
+
+       37035
+
+
+iter =
+
+    10
+
+
+steps =
+
+       59001
+
+
+iter =
+
+     4
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    16
+
+
+iter =
+
+     2
+
+
+steps =
+
+       42854
+
+
+iter =
+
+    12
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    11
+
+
+steps =
+
+       59376
+
+
+iter =
+
+     3
+
+
+steps =
+
+       83475
+
+
+iter =
+
+     3
+
+
+steps =
+
+       36556
+
+
+iter =
+
+    15
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    12
+
+
+steps =
+
+       50928
+
+
+iter =
+
+     5
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    13
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    14
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    13
+
+
+steps =
+
+       44096
+
+
+iter =
+
+     6
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    18
+
+
+steps =
+
+       72044
+
+
+iter =
+
+     4
+
+
+steps =
+
+       89212
+
+
+iter =
+
+     3
+
+
+steps =
+
+       32905
+
+
+iter =
+
+    15
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    16
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    14
+
+
+steps =
+
+       44096
+
+
+iter =
+
+     4
+
+
+steps =
+
+       54033
+
+
+iter =
+
+     5
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    16
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    17
+
+
+steps =
+
+       25825
+
+
+iter =
+
+    15
+
+
+steps =
+
+       69559
+
+
+iter =
+
+     5
+
+
+steps =
+
+       24293
+
+
+iter =
+
+     7
+
+
+steps =
+
+       21117
+
+
+iter =
+
+     8
+
+
+steps =
+
+       25926
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21842
+
+
+iter =
+
+    20
+
+
+steps =
+
+       88191
+
+
+iter =
+
+     4
+
+
+steps =
+
+       23601
+
+
+iter =
+
+     6
+
+
+steps =
+
+       32296
+
+Elapsed time is 27.671616 seconds.
+
+steps =
+
+       24844
+
+
+iter =
+
+     6
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    17
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    16
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    17
+
+
+steps =
+
+       30433
+
+
+iter =
+
+     9
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     7
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    18
+
+
+steps =
+
+       30403
+
+
+iter =
+
+    18
+
+
+steps =
+
+       20762
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    18
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     7
+
+
+steps =
+
+       39749
+
+
+iter =
+
+    10
+
+
+steps =
+
+       41612
+
+
+iter =
+
+     8
+
+
+steps =
+
+       44096
+
+
+iter =
+
+     5
+
+
+steps =
+
+       19875
+
+
+iter =
+
+     6
+
+
+steps =
+
+       29863
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+steps =
+
+       41612
+
+
+iter =
+
+    19
+
+
+steps =
+
+       20995
+
+
+iter =
+
+    20
+
+
+steps =
+
+       36023
+
+
+iter =
+
+     8
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     9
+
+
+steps =
+
+       44096
+
+
+iter =
+
+     7
+
+
+steps =
+
+       21582
+
+Elapsed time is 26.921671 seconds.
+
+steps =
+
+       23601
+
+
+iter =
+
+    19
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    20
+
+
+steps =
+
+       62593
+
+
+iter =
+
+     9
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    12
+
+
+steps =
+
+       60669
+
+
+iter =
+
+     3
+
+
+steps =
+
+       45338
+
+
+iter =
+
+    20
+
+
+steps =
+
+       22425
+
+Elapsed time is 30.287284 seconds.
+
+steps =
+
+       40184
+
+Elapsed time is 26.417942 seconds.
+
+steps =
+
+       30757
+
+
+iter =
+
+    13
+
+
+steps =
+
+       26712
+
+
+iter =
+
+    10
+
+
+steps =
+
+       32654
+
+
+iter =
+
+     8
+
+
+steps =
+
+       53412
+
+
+iter =
+
+     4
+
+
+steps =
+
+       54654
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+iter =
+
+     2
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    10
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    12
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       61486
+
+
+iter =
+
+    11
+
+
+steps =
+
+       39660
+
+
+iter =
+
+    14
+
+
+steps =
+
+       46580
+
+
+iter =
+
+     5
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    13
+
+
+steps =
+
+       45314
+
+
+iter =
+
+    10
+
+
+steps =
+
+       49710
+
+
+iter =
+
+     3
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    12
+
+
+steps =
+
+       64726
+
+
+iter =
+
+     3
+
+
+steps =
+
+       72537
+
+
+iter =
+
+     3
+
+
+steps =
+
+       57759
+
+
+iter =
+
+    15
+
+
+steps =
+
+       42233
+
+
+iter =
+
+     6
+
+
+steps =
+
+       30216
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    11
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    12
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     4
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    13
+
+
+steps =
+
+       37765
+
+
+iter =
+
+     7
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    15
+
+
+steps =
+
+       55896
+
+
+iter =
+
+     4
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     4
+
+
+steps =
+
+       53205
+
+
+iter =
+
+    16
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     8
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    13
+
+
+steps =
+
+       19922
+
+
+iter =
+
+    14
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     5
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    14
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    15
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    17
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     5
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     5
+
+
+steps =
+
+       33843
+
+
+iter =
+
+    16
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    18
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     9
+
+
+steps =
+
+       22342
+
+
+iter =
+
+    18
+
+
+steps =
+
+       39466
+
+
+iter =
+
+    15
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     6
+
+
+steps =
+
+       49686
+
+
+iter =
+
+    16
+
+
+steps =
+
+       44096
+
+
+iter =
+
+     6
+
+
+steps =
+
+       45338
+
+
+iter =
+
+     6
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     7
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    17
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    19
+
+
+steps =
+
+       20487
+
+
+iter =
+
+    20
+
+
+steps =
+
+       47094
+
+
+iter =
+
+    10
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    19
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     7
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     7
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    18
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    11
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     8
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     8
+
+
+steps =
+
+       31675
+
+Elapsed time is 32.240157 seconds.
+
+steps =
+
+       42160
+
+
+iter =
+
+    20
+
+
+steps =
+
+       26136
+
+
+iter =
+
+    17
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    18
+
+
+steps =
+
+       50928
+
+
+iter =
+
+     9
+
+
+steps =
+
+       34030
+
+
+iter =
+
+     8
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    19
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    12
+
+
+steps =
+
+       26047
+
+
+iter =
+
+     9
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    20
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    13
+
+
+steps =
+
+       44096
+
+Elapsed time is 32.525104 seconds.
+
+steps =
+
+       27108
+
+
+iter =
+
+    19
+
+
+steps =
+
+       37903
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    10
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+steps =
+
+       50928
+
+
+iter =
+
+    20
+
+
+steps =
+
+       59623
+
+
+iter =
+
+     9
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    10
+
+
+steps =
+
+       40370
+
+Elapsed time is 32.280667 seconds.
+
+steps =
+
+       36644
+
+
+iter =
+
+    14
+
+
+steps =
+
+       26086
+
+Elapsed time is 33.632604 seconds.
+
+steps =
+
+       40991
+
+
+iter =
+
+    11
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    12
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    12
+
+
+iter =
+
+     2
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    13
+
+
+steps =
+
+       72691
+
+
+iter =
+
+     3
+
+
+steps =
+
+       48009
+
+
+iter =
+
+    15
+
+
+steps =
+
+       39749
+
+
+iter =
+
+    13
+
+
+steps =
+
+       31414
+
+
+iter =
+
+    11
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    16
+
+
+steps =
+
+       68325
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       26168
+
+
+iter =
+
+    14
+
+
+steps =
+
+       37663
+
+
+iter =
+
+    14
+
+
+steps =
+
+       89433
+
+
+iter =
+
+    12
+
+
+iter =
+
+     2
+
+
+steps =
+
+       60244
+
+
+iter =
+
+     4
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    17
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     4
+
+
+steps =
+
+       55129
+
+
+iter =
+
+     3
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    15
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     5
+
+
+steps =
+
+       30457
+
+
+iter =
+
+    18
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    16
+
+
+steps =
+
+       23208
+
+
+iter =
+
+    13
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     6
+
+
+steps =
+
+       26352
+
+
+iter =
+
+    19
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     4
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    15
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    14
+
+
+steps =
+
+       90831
+
+
+iter =
+
+     3
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    20
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     5
+
+
+steps =
+
+       38422
+
+
+iter =
+
+    17
+
+
+steps =
+
+       80117
+
+
+iter =
+
+     4
+
+
+steps =
+
+       30090
+
+
+iter =
+
+     7
+
+
+steps =
+
+       36023
+
+
+iter =
+
+     5
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    17
+
+
+steps =
+
+       20877
+
+
+iter =
+
+    18
+
+
+steps =
+
+       35029
+
+
+iter =
+
+    15
+
+
+steps =
+
+       70180
+
+
+iter =
+
+     6
+
+
+steps =
+
+       44096
+
+
+iter =
+
+    19
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    18
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    16
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     5
+
+
+steps =
+
+       47201
+
+
+iter =
+
+     8
+
+
+steps =
+
+       25175
+
+
+iter =
+
+     7
+
+
+steps =
+
+       58380
+
+
+iter =
+
+     6
+
+
+steps =
+
+       23600
+
+
+iter =
+
+    20
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    19
+
+
+steps =
+
+       29458
+
+
+iter =
+
+    17
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     9
+
+
+steps =
+
+       27328
+
+Elapsed time is 30.613418 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     8
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    18
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    10
+
+
+steps =
+
+       28957
+
+
+iter =
+
+     9
+
+
+steps =
+
+       39749
+
+
+iter =
+
+     7
+
+
+steps =
+
+       28570
+
+Elapsed time is 30.233678 seconds.
+
+steps =
+
+       24844
+
+
+iter =
+
+    19
+
+
+steps =
+
+       47823
+
+
+iter =
+
+     6
+
+
+steps =
+
+       65310
+
+
+iter =
+
+     3
+
+
+steps =
+
+       38109
+
+
+iter =
+
+    20
+
+
+steps =
+
+       21117
+
+Elapsed time is 30.693714 seconds.
+
+steps =
+
+       50307
+
+
+iter =
+
+     7
+
+
+steps =
+
+       33490
+
+
+iter =
+
+    11
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    10
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    11
+
+
+steps =
+
+       55952
+
+
+iter =
+
+     8
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    20
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     8
+
+
+steps =
+
+       64591
+
+
+iter =
+
+     4
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    12
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29191
+
+Elapsed time is 33.524471 seconds.
+
+steps =
+
+       29812
+
+
+iter =
+
+     9
+
+
+steps =
+
+       36644
+
+
+iter =
+
+     5
+
+
+steps =
+
+       46580
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    10
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    12
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    13
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    13
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32573
+
+
+iter =
+
+    10
+
+
+steps =
+
+       37060
+
+
+iter =
+
+    14
+
+
+steps =
+
+       86379
+
+
+iter =
+
+     3
+
+
+steps =
+
+       68755
+
+
+iter =
+
+     3
+
+
+steps =
+
+       23008
+
+
+iter =
+
+    11
+
+
+steps =
+
+       33017
+
+
+iter =
+
+    15
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     6
+
+
+steps =
+
+       21802
+
+
+iter =
+
+     7
+
+
+steps =
+
+       23072
+
+
+iter =
+
+    15
+
+
+steps =
+
+       22403
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    12
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    16
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    12
+
+
+steps =
+
+       66454
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    13
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    16
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     8
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    17
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     5
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    17
+
+
+steps =
+
+       33811
+
+
+iter =
+
+     9
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    13
+
+
+steps =
+
+       54033
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    10
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    14
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     6
+
+
+steps =
+
+       86328
+
+
+iter =
+
+     5
+
+
+steps =
+
+       87404
+
+
+iter =
+
+     3
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    15
+
+
+steps =
+
+       25098
+
+
+iter =
+
+    18
+
+
+steps =
+
+       35308
+
+
+iter =
+
+    18
+
+
+steps =
+
+       45338
+
+
+iter =
+
+     7
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     6
+
+
+steps =
+
+       88191
+
+
+iter =
+
+     4
+
+
+steps =
+
+       41243
+
+
+iter =
+
+    19
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    11
+
+
+steps =
+
+       49686
+
+
+iter =
+
+    19
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    15
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    16
+
+
+steps =
+
+       32958
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32472
+
+
+iter =
+
+    12
+
+
+steps =
+
+       28197
+
+
+iter =
+
+     8
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     7
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     8
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     5
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    17
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    13
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    17
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    18
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     9
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    10
+
+
+steps =
+
+       31054
+
+Elapsed time is 29.882741 seconds.
+
+steps =
+
+       20496
+
+
+iter =
+
+     9
+
+
+steps =
+
+       34063
+
+
+iter =
+
+     6
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    18
+
+
+steps =
+
+       24838
+
+Elapsed time is 32.138288 seconds.
+
+steps =
+
+       32296
+
+
+iter =
+
+    14
+
+
+steps =
+
+       27823
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21975
+
+
+iter =
+
+    11
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    10
+
+
+steps =
+
+       32084
+
+
+iter =
+
+     7
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    19
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    20
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    20
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    12
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    11
+
+
+steps =
+
+       57138
+
+
+iter =
+
+     8
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    15
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    16
+
+
+iter =
+
+     2
+
+
+steps =
+
+       32548
+
+Elapsed time is 31.007757 seconds.
+
+steps =
+
+       26086
+
+
+iter =
+
+    13
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    14
+
+
+steps =
+
+       31057
+
+
+iter =
+
+    12
+
+
+steps =
+
+       29443
+
+Elapsed time is 32.274035 seconds.
+      100000
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    13
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     9
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    17
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    18
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    15
+
+
+steps =
+
+       25075
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    10
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    19
+
+
+steps =
+
+       84103
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       32008
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+steps =
+
+       70801
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    16
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    15
+
+
+iter =
+
+     2
+
+
+steps =
+
+      106767
+
+      100000
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    20
+
+
+steps =
+
+       44158
+
+
+iter =
+
+    17
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    16
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    12
+
+
+steps =
+
+       23601
+
+
+iter =
+
+     5
+
+
+steps =
+
+       68095
+
+
+iter =
+
+     3
+
+
+steps =
+
+       48918
+
+Elapsed time is 29.736362 seconds.
+
+steps =
+
+       40991
+
+
+iter =
+
+    17
+
+
+steps =
+
+       69506
+
+
+iter =
+
+     3
+
+
+iter =
+
+     3
+
+
+steps =
+
+      122349
+
+
+iter =
+
+     4
+
+
+steps =
+
+       66454
+
+
+iter =
+
+     4
+
+
+steps =
+
+       29154
+
+
+iter =
+
+    13
+
+
+steps =
+
+       18641
+
+
+iter =
+
+    14
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     5
+
+
+steps =
+
+       42233
+
+
+iter =
+
+     6
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    18
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    19
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    18
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    15
+
+
+steps =
+
+       69559
+
+
+iter =
+
+     4
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     5
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    19
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    16
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     5
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     6
+
+
+steps =
+
+       42233
+
+
+iter =
+
+     7
+
+
+steps =
+
+       19875
+
+
+iter =
+
+     8
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     6
+
+
+steps =
+
+       45338
+
+
+iter =
+
+    20
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    20
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     6
+
+
+steps =
+
+       41612
+
+
+iter =
+
+     7
+
+
+steps =
+
+       69445
+
+
+iter =
+
+     3
+
+
+steps =
+
+       20496
+
+
+iter =
+
+     9
+
+
+steps =
+
+       42233
+
+Elapsed time is 30.644649 seconds.
+
+steps =
+
+       32917
+
+
+iter =
+
+    17
+
+
+steps =
+
+       30753
+
+Elapsed time is 30.636937 seconds.
+
+steps =
+
+       29812
+
+
+iter =
+
+    18
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     7
+
+
+steps =
+
+       27956
+
+
+iter =
+
+     8
+
+
+steps =
+
+       31054
+
+
+iter =
+
+     7
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     8
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     9
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     4
+
+
+steps =
+
+       30272
+
+
+iter =
+
+    10
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+steps =
+
+       23043
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    20
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     5
+
+
+steps =
+
+       32879
+
+
+iter =
+
+    12
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29191
+
+Elapsed time is 30.758648 seconds.
+
+steps =
+
+       24223
+
+
+iter =
+
+    10
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     8
+
+
+steps =
+
+       24223
+
+
+iter =
+
+     9
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    10
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     6
+
+
+steps =
+
+       20496
+
+
+iter =
+
+     7
+
+
+steps =
+
+       35235
+
+
+iter =
+
+    13
+
+
+steps =
+
+       61486
+
+
+iter =
+
+     9
+
+
+steps =
+
+       70778
+
+
+iter =
+
+     3
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    11
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    12
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     8
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    14
+
+
+steps =
+
+       70801
+
+
+iter =
+
+     4
+
+
+steps =
+
+       71539
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    11
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    12
+
+
+steps =
+
+       24860
+
+
+iter =
+
+    13
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     9
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    14
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    15
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    10
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    11
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     5
+
+
+steps =
+
+       54033
+
+
+iter =
+
+     4
+
+
+steps =
+
+       71602
+
+
+iter =
+
+     3
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    13
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    10
+
+
+steps =
+
+       36697
+
+
+iter =
+
+    12
+
+
+steps =
+
+       27597
+
+
+iter =
+
+     6
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    15
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    16
+
+
+steps =
+
+       44717
+
+
+iter =
+
+     5
+
+
+steps =
+
+       41463
+
+
+iter =
+
+    14
+
+
+steps =
+
+       47161
+
+
+iter =
+
+    11
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    13
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     6
+
+
+steps =
+
+       52791
+
+
+iter =
+
+     4
+
+
+steps =
+
+       39749
+
+
+iter =
+
+    15
+
+
+steps =
+
+       37265
+
+
+iter =
+
+    16
+
+
+steps =
+
+       17391
+
+
+iter =
+
+    17
+
+
+steps =
+
+       50501
+
+
+iter =
+
+    17
+
+
+steps =
+
+       32203
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     7
+
+
+steps =
+
+       19001
+
+
+iter =
+
+     8
+
+
+steps =
+
+       23435
+
+
+iter =
+
+    16
+
+
+steps =
+
+       25423
+
+
+iter =
+
+    18
+
+
+steps =
+
+       47201
+
+
+iter =
+
+    12
+
+
+steps =
+
+       28806
+
+
+iter =
+
+     7
+
+
+steps =
+
+       63349
+
+
+iter =
+
+     5
+
+
+steps =
+
+       46580
+
+
+iter =
+
+    18
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    19
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     9
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     6
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    13
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    14
+
+
+steps =
+
+       26305
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    15
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    16
+
+
+steps =
+
+       50307
+
+
+iter =
+
+    10
+
+
+steps =
+
+       36023
+
+
+iter =
+
+     8
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     9
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     7
+
+
+steps =
+
+       31339
+
+
+iter =
+
+    18
+
+
+steps =
+
+       31880
+
+
+iter =
+
+    19
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    20
+
+
+steps =
+
+       24223
+
+Elapsed time is 31.481100 seconds.
+
+steps =
+
+       22359
+
+
+iter =
+
+    10
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    19
+
+
+steps =
+
+       32917
+
+Elapsed time is 31.873235 seconds.
+
+steps =
+
+       28087
+
+
+iter =
+
+    15
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    17
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    11
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    20
+
+
+steps =
+
+       51549
+
+
+iter =
+
+    16
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    11
+
+
+steps =
+
+       20655
+
+
+iter =
+
+    12
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     8
+
+
+iter =
+
+     2
+
+
+steps =
+
+       62728
+
+
+iter =
+
+    18
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    13
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    12
+
+
+steps =
+
+       65212
+
+
+iter =
+
+     9
+
+
+steps =
+
+       34951
+
+
+iter =
+
+    17
+
+
+steps =
+
+       61107
+
+
+iter =
+
+     3
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    19
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    13
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    10
+
+
+iter =
+
+     2
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    18
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    19
+
+
+steps =
+
+       27218
+
+
+iter =
+
+    14
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    11
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     4
+
+
+steps =
+
+       30300
+
+
+iter =
+
+    20
+
+
+steps =
+
+       42854
+
+
+iter =
+
+    15
+
+
+steps =
+
+       32624
+
+
+iter =
+
+    14
+
+
+steps =
+
+       26246
+
+Elapsed time is 30.302166 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     5
+
+
+steps =
+
+       53412
+
+Elapsed time is 34.975043 seconds.
+
+steps =
+
+       28570
+
+
+iter =
+
+    16
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    15
+
+
+steps =
+
+       25156
+
+
+iter =
+
+    12
+
+
+steps =
+
+       18085
+
+
+iter =
+
+    13
+
+
+steps =
+
+       88864
+
+
+iter =
+
+     3
+
+
+steps =
+
+       22545
+
+
+iter =
+
+    20
+
+
+steps =
+
+       21738
+
+Elapsed time is 28.699058 seconds.
+
+steps =
+
+       25465
+
+
+iter =
+
+    16
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     6
+
+
+steps =
+
+       24774
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29955
+
+
+iter =
+
+    14
+
+
+iter =
+
+     2
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     7
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    18
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    17
+
+
+steps =
+
+       22178
+
+
+iter =
+
+    18
+
+
+steps =
+
+       72044
+
+
+iter =
+
+     4
+
+
+steps =
+
+       25483
+
+
+iter =
+
+     8
+
+
+iter =
+
+     2
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    19
+
+
+steps =
+
+       23714
+
+
+iter =
+
+    19
+
+
+steps =
+
+       42854
+
+
+iter =
+
+    15
+
+
+steps =
+
+       97052
+
+      100000
+
+
+steps =
+
+       70801
+
+
+iter =
+
+     5
+
+
+steps =
+
+       52282
+
+
+iter =
+
+     3
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     9
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    20
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     6
+
+
+steps =
+
+       80219
+
+
+iter =
+
+     3
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    17
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    10
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    20
+
+
+steps =
+
+       20496
+
+Elapsed time is 30.506797 seconds.
+
+steps =
+
+       29191
+
+Elapsed time is 29.193129 seconds.
+
+iter =
+
+     3
+
+
+steps =
+
+      106823
+
+
+iter =
+
+     4
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     7
+
+
+steps =
+
+       20496
+
+
+iter =
+
+     8
+
+
+steps =
+
+       43642
+
+
+iter =
+
+     4
+
+
+steps =
+
+       56517
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    18
+
+
+steps =
+
+       18220
+
+
+iter =
+
+    19
+
+
+steps =
+
+       70180
+
+
+iter =
+
+     5
+
+
+steps =
+
+       77012
+
+
+iter =
+
+     5
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    11
+
+
+steps =
+
+       21676
+
+
+iter =
+
+    12
+
+
+iter =
+
+     2
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     9
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    10
+
+
+steps =
+
+       45959
+
+
+iter =
+
+     5
+
+
+iter =
+
+     2
+
+
+steps =
+
+       31921
+
+
+iter =
+
+    20
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     6
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     6
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    13
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     6
+
+
+steps =
+
+       51635
+
+
+iter =
+
+     3
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     7
+
+
+steps =
+
+       29067
+
+
+iter =
+
+    11
+
+
+steps =
+
+       22706
+
+
+iter =
+
+    12
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     7
+
+
+steps =
+
+       37886
+
+
+iter =
+
+    14
+
+
+steps =
+
+       45338
+
+
+iter =
+
+     4
+
+
+steps =
+
+       55879
+
+Elapsed time is 31.410687 seconds.
+
+steps =
+
+       25465
+
+
+iter =
+
+    13
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     7
+
+
+steps =
+
+       22984
+
+
+iter =
+
+     5
+
+
+steps =
+
+       22980
+
+
+iter =
+
+     8
+
+
+steps =
+
+       30346
+
+
+iter =
+
+     8
+
+
+steps =
+
+       35531
+
+
+iter =
+
+    15
+
+
+steps =
+
+       24223
+
+
+iter =
+
+     8
+
+
+steps =
+
+       89680
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       42854
+
+
+iter =
+
+     9
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    14
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     9
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    16
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     6
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    15
+
+
+steps =
+
+       25691
+
+
+iter =
+
+    17
+
+
+steps =
+
+       22326
+
+
+iter =
+
+     9
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    10
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     7
+
+
+steps =
+
+       81359
+
+
+iter =
+
+     4
+
+
+steps =
+
+       64338
+
+
+iter =
+
+     3
+
+
+steps =
+
+       31976
+
+
+iter =
+
+    10
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    10
+
+
+steps =
+
+       37005
+
+
+iter =
+
+    11
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     5
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    16
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    17
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    11
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    18
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     8
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     4
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    11
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    12
+
+
+steps =
+
+       32588
+
+
+iter =
+
+    19
+
+
+steps =
+
+       26742
+
+
+iter =
+
+    12
+
+
+steps =
+
+       25465
+
+
+iter =
+
+     9
+
+
+steps =
+
+       31054
+
+
+iter =
+
+     6
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     7
+
+
+steps =
+
+       38507
+
+
+iter =
+
+     5
+
+
+steps =
+
+       22064
+
+
+iter =
+
+    13
+
+
+steps =
+
+       31509
+
+
+iter =
+
+    18
+
+
+steps =
+
+       36677
+
+
+iter =
+
+    12
+
+
+steps =
+
+       19386
+
+
+iter =
+
+    13
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    13
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    10
+
+
+steps =
+
+       25810
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29563
+
+
+iter =
+
+    19
+
+
+steps =
+
+       32630
+
+
+iter =
+
+    20
+
+
+steps =
+
+       35890
+
+
+iter =
+
+    11
+
+
+steps =
+
+       26169
+
+
+iter =
+
+     8
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     6
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    14
+
+
+steps =
+
+       35401
+
+Elapsed time is 28.854120 seconds.
+
+steps =
+
+       37886
+
+
+iter =
+
+    14
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     9
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    15
+
+
+steps =
+
+       44096
+
+
+iter =
+
+    20
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    15
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    12
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    10
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     7
+
+
+steps =
+
+       28091
+
+Elapsed time is 30.151466 seconds.
+
+steps =
+
+       43475
+
+
+iter =
+
+    15
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    16
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    13
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     8
+
+
+iter =
+
+     2
+
+
+steps =
+
+       24283
+
+
+iter =
+
+    11
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    16
+
+
+steps =
+
+       50928
+
+
+iter =
+
+    16
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    17
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       28912
+
+
+iter =
+
+    17
+
+
+steps =
+
+       64864
+
+
+iter =
+
+     3
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    18
+
+
+steps =
+
+       39912
+
+
+iter =
+
+    15
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    12
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    13
+
+
+steps =
+
+       47286
+
+
+iter =
+
+    10
+
+
+steps =
+
+       55896
+
+
+iter =
+
+    17
+
+
+steps =
+
+       47823
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27524
+
+
+iter =
+
+    19
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    11
+
+
+steps =
+
+       52633
+
+
+iter =
+
+    18
+
+
+steps =
+
+       63574
+
+
+iter =
+
+     3
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    18
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    16
+
+
+steps =
+
+       40518
+
+
+iter =
+
+    15
+
+
+steps =
+
+       34413
+
+
+iter =
+
+    19
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     5
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    20
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    12
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    19
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     4
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    17
+
+
+steps =
+
+       16416
+
+
+iter =
+
+    18
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    16
+
+
+steps =
+
+       23499
+
+
+iter =
+
+    13
+
+
+steps =
+
+       33440
+
+
+iter =
+
+    20
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     5
+
+
+steps =
+
+       26006
+
+
+iter =
+
+    20
+
+
+steps =
+
+       51599
+
+
+iter =
+
+     6
+
+
+steps =
+
+       52170
+
+Elapsed time is 31.455095 seconds.
+
+steps =
+
+       28570
+
+
+iter =
+
+    14
+
+
+steps =
+
+       40991
+
+Elapsed time is 32.538907 seconds.
+
+steps =
+
+       39483
+
+
+iter =
+
+    19
+
+
+steps =
+
+       29804
+
+
+iter =
+
+    17
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    18
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    15
+
+
+steps =
+
+       27653
+
+
+iter =
+
+     6
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     7
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     7
+
+
+iter =
+
+     2
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    20
+
+
+steps =
+
+       21738
+
+Elapsed time is 27.969610 seconds.
+
+steps =
+
+       32659
+
+
+iter =
+
+    19
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    16
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     8
+
+
+steps =
+
+       47201
+
+
+iter =
+
+    20
+
+
+steps =
+
+       29135
+
+
+iter =
+
+    17
+
+
+steps =
+
+       24844
+
+Elapsed time is 36.373705 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       26543
+
+
+iter =
+
+     8
+
+
+iter =
+
+     2
+
+
+steps =
+
+       54851
+
+
+iter =
+
+     9
+
+
+steps =
+
+       65846
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    18
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    19
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     9
+
+
+steps =
+
+       74480
+
+
+iter =
+
+     3
+
+
+steps =
+
+       16770
+
+
+iter =
+
+    20
+
+
+steps =
+
+       85650
+
+
+iter =
+
+     3
+
+
+steps =
+
+       47193
+
+
+iter =
+
+    10
+
+
+steps =
+
+       50928
+
+
+iter =
+
+     4
+
+
+steps =
+
+       64659
+
+
+iter =
+
+     3
+
+
+steps =
+
+       61486
+
+
+iter =
+
+     4
+
+
+steps =
+
+       47823
+
+
+iter =
+
+    10
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    11
+
+
+steps =
+
+       59001
+
+
+iter =
+
+     5
+
+
+steps =
+
+       38850
+
+Elapsed time is 28.462576 seconds.
+
+steps =
+
+       30433
+
+Elapsed time is 30.047493 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       81980
+
+
+iter =
+
+     4
+
+
+steps =
+
+       41612
+
+
+iter =
+
+    11
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    12
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    13
+
+
+steps =
+
+       51549
+
+
+iter =
+
+     4
+
+
+steps =
+
+       37886
+
+
+iter =
+
+    12
+
+
+steps =
+
+       27935
+
+
+iter =
+
+    14
+
+
+steps =
+
+       25465
+
+
+iter =
+
+     6
+
+
+steps =
+
+       54033
+
+
+iter =
+
+     5
+
+
+iter =
+
+     2
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     5
+
+
+steps =
+
+       53412
+
+
+iter =
+
+     5
+
+
+steps =
+
+       44717
+
+
+iter =
+
+     7
+
+
+steps =
+
+       89489
+
+
+iter =
+
+     3
+
+
+steps =
+
+       48444
+
+
+iter =
+
+     6
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    13
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    14
+
+
+steps =
+
+       57138
+
+
+iter =
+
+     6
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    15
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     6
+
+
+steps =
+
+       23601
+
+
+iter =
+
+     7
+
+
+steps =
+
+       39749
+
+
+iter =
+
+     7
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     8
+
+
+steps =
+
+       90054
+
+
+iter =
+
+     4
+
+
+steps =
+
+       71234
+
+
+iter =
+
+     3
+
+
+steps =
+
+       22961
+
+
+iter =
+
+     8
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    15
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    16
+
+
+steps =
+
+       31736
+
+
+iter =
+
+    16
+
+
+steps =
+
+       20500
+
+
+iter =
+
+    17
+
+
+steps =
+
+       25465
+
+
+iter =
+
+     9
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     7
+
+
+steps =
+
+       22980
+
+
+iter =
+
+     8
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     8
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    10
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     9
+
+
+steps =
+
+       18690
+
+
+iter =
+
+    17
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    18
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    11
+
+
+steps =
+
+       21117
+
+
+iter =
+
+     9
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     5
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     6
+
+
+steps =
+
+       62728
+
+
+iter =
+
+     4
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     5
+
+
+steps =
+
+       31743
+
+
+iter =
+
+    10
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    11
+
+
+steps =
+
+       43642
+
+
+iter =
+
+     9
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    19
+
+
+steps =
+
+       43475
+
+
+iter =
+
+     7
+
+
+steps =
+
+       52170
+
+
+iter =
+
+    18
+
+
+steps =
+
+       34342
+
+
+iter =
+
+    10
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    20
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    12
+
+
+steps =
+
+       52170
+
+
+iter =
+
+    10
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     6
+
+
+steps =
+
+       16149
+
+
+iter =
+
+    12
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    11
+
+
+steps =
+
+       28337
+
+
+iter =
+
+     8
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    13
+
+
+steps =
+
+       48322
+
+
+iter =
+
+    19
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    13
+
+
+steps =
+
+       20167
+
+
+iter =
+
+    14
+
+
+steps =
+
+       40370
+
+
+iter =
+
+    11
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    12
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     9
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     7
+
+
+steps =
+
+       19254
+
+
+iter =
+
+     8
+
+
+steps =
+
+       27851
+
+
+iter =
+
+    14
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    12
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    13
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    15
+
+
+steps =
+
+       21997
+
+
+iter =
+
+     9
+
+
+steps =
+
+       24871
+
+
+iter =
+
+    15
+
+
+steps =
+
+       41612
+
+
+iter =
+
+    20
+
+
+steps =
+
+       22359
+
+Elapsed time is 30.529559 seconds.
+
+steps =
+
+       22883
+
+
+iter =
+
+    14
+
+
+steps =
+
+       40370
+
+Elapsed time is 29.938075 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       40620
+
+
+iter =
+
+    13
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    10
+
+
+steps =
+
+       19324
+
+
+iter =
+
+    11
+
+
+steps =
+
+       36486
+
+
+iter =
+
+    16
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    14
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    12
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    10
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    16
+
+
+steps =
+
+       27000
+
+
+iter =
+
+    15
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    16
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    17
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    15
+
+
+steps =
+
+       31089
+
+
+iter =
+
+    13
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    11
+
+
+steps =
+
+       33721
+
+
+iter =
+
+    17
+
+
+iter =
+
+     2
+
+
+steps =
+
+       70698
+
+
+iter =
+
+     3
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    18
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    14
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    18
+
+
+steps =
+
+       26649
+
+
+iter =
+
+    17
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    16
+
+
+steps =
+
+       29583
+
+
+iter =
+
+    12
+
+
+steps =
+
+       25950
+
+
+iter =
+
+    19
+
+
+steps =
+
+       35946
+
+
+iter =
+
+    17
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    15
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    19
+
+
+steps =
+
+       71266
+
+
+iter =
+
+     3
+
+
+steps =
+
+       45338
+
+
+iter =
+
+    18
+
+
+steps =
+
+       74528
+
+
+iter =
+
+     4
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    20
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    18
+
+
+steps =
+
+       37886
+
+
+iter =
+
+    16
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    13
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    20
+
+
+steps =
+
+       62107
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    19
+
+
+steps =
+
+       29191
+
+Elapsed time is 30.336069 seconds.
+
+steps =
+
+       24844
+
+
+iter =
+
+    19
+
+
+steps =
+
+       22980
+
+Elapsed time is 30.051164 seconds.
+
+steps =
+
+       30433
+
+
+iter =
+
+    20
+
+
+steps =
+
+       68938
+
+
+iter =
+
+     5
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    17
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    15
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     5
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    18
+
+
+steps =
+
+       23601
+
+
+iter =
+
+     6
+
+
+steps =
+
+       23285
+
+Elapsed time is 30.956965 seconds.
+
+steps =
+
+       30701
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    19
+
+
+steps =
+
+       41612
+
+
+iter =
+
+    16
+
+
+iter =
+
+     2
+
+
+steps =
+
+       54654
+
+Elapsed time is 30.140085 seconds.
+
+steps =
+
+       27949
+
+
+iter =
+
+    17
+
+
+iter =
+
+     2
+
+
+steps =
+
+       30433
+
+
+iter =
+
+     7
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     6
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    20
+
+
+iter =
+
+     2
+
+
+steps =
+
+       82601
+
+
+iter =
+
+     7
+
+
+steps =
+
+       63808
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29993
+
+Elapsed time is 30.348549 seconds.
+
+steps =
+
+       22359
+
+
+iter =
+
+    18
+
+
+steps =
+
+       70761
+
+
+iter =
+
+     3
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     8
+
+
+steps =
+
+       45338
+
+
+iter =
+
+    19
+
+
+steps =
+
+       65833
+
+
+iter =
+
+     8
+
+
+steps =
+
+       19875
+
+
+iter =
+
+     9
+
+
+steps =
+
+       56832
+
+
+iter =
+
+     3
+
+
+steps =
+
+       51549
+
+
+iter =
+
+     4
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    10
+
+
+steps =
+
+       71217
+
+
+iter =
+
+     3
+
+
+steps =
+
+       35401
+
+
+iter =
+
+     9
+
+
+steps =
+
+       57759
+
+
+iter =
+
+     4
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     4
+
+
+steps =
+
+       42321
+
+
+iter =
+
+    20
+
+
+steps =
+
+       73286
+
+
+iter =
+
+     4
+
+
+steps =
+
+       49686
+
+
+iter =
+
+     5
+
+
+iter =
+
+     2
+
+
+steps =
+
+       43475
+
+Elapsed time is 31.277289 seconds.
+
+steps =
+
+       58380
+
+
+iter =
+
+     5
+
+
+steps =
+
+       28987
+
+
+iter =
+
+    11
+
+
+steps =
+
+       25586
+
+
+iter =
+
+    10
+
+
+steps =
+
+       20760
+
+
+iter =
+
+    11
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     6
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     5
+
+
+steps =
+
+       41612
+
+
+iter =
+
+     5
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    12
+
+
+steps =
+
+       41612
+
+
+iter =
+
+     6
+
+
+steps =
+
+       15786
+
+
+iter =
+
+     7
+
+
+steps =
+
+       55896
+
+
+iter =
+
+    12
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    13
+
+
+steps =
+
+       24729
+
+
+iter =
+
+     6
+
+
+steps =
+
+       32296
+
+
+iter =
+
+     7
+
+
+steps =
+
+       92439
+
+
+iter =
+
+     3
+
+
+steps =
+
+       21117
+
+
+iter =
+
+     8
+
+
+steps =
+
+       37133
+
+
+iter =
+
+    13
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32917
+
+
+iter =
+
+     8
+
+
+steps =
+
+       44717
+
+
+iter =
+
+     6
+
+      100000
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     9
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    14
+
+
+steps =
+
+       35401
+
+
+iter =
+
+     7
+
+
+steps =
+
+       29910
+
+
+iter =
+
+     9
+
+
+steps =
+
+       87570
+
+
+iter =
+
+     4
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    15
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     8
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    15
+
+
+steps =
+
+       62107
+
+
+iter =
+
+     7
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    10
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    11
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    16
+
+
+steps =
+
+       45959
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    11
+
+
+steps =
+
+       45338
+
+
+iter =
+
+     8
+
+
+steps =
+
+       22980
+
+
+iter =
+
+     9
+
+
+steps =
+
+       57138
+
+
+iter =
+
+     5
+
+
+steps =
+
+       24969
+
+
+iter =
+
+    17
+
+
+steps =
+
+       31933
+
+
+iter =
+
+     9
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    12
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     6
+
+
+iter =
+
+     2
+
+
+steps =
+
+      106070
+
+
+iter =
+
+     3
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    12
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    10
+
+
+steps =
+
+       17424
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    11
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    13
+
+
+steps =
+
+       27032
+
+
+iter =
+
+    18
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    19
+
+
+steps =
+
+       30555
+
+
+iter =
+
+    11
+
+
+steps =
+
+       26752
+
+
+iter =
+
+    17
+
+
+steps =
+
+       21548
+
+
+iter =
+
+    18
+
+
+steps =
+
+       85707
+
+
+iter =
+
+     4
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    14
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    12
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    19
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    13
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    14
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    12
+
+
+steps =
+
+       33368
+
+
+iter =
+
+     7
+
+
+steps =
+
+       19254
+
+
+iter =
+
+     8
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    15
+
+
+steps =
+
+       39749
+
+
+iter =
+
+    20
+
+
+steps =
+
+       36502
+
+
+iter =
+
+    13
+
+
+steps =
+
+       35013
+
+
+iter =
+
+     9
+
+
+steps =
+
+       45959
+
+
+iter =
+
+     5
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    13
+
+
+steps =
+
+       41861
+
+
+iter =
+
+    15
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    14
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    10
+
+
+steps =
+
+       24523
+
+
+iter =
+
+    16
+
+
+steps =
+
+       28705
+
+
+iter =
+
+    20
+
+
+steps =
+
+       29191
+
+Elapsed time is 33.326218 seconds.
+
+steps =
+
+       39128
+
+
+iter =
+
+    16
+
+
+steps =
+
+       39004
+
+
+iter =
+
+     6
+
+
+steps =
+
+       37498
+
+
+iter =
+
+    14
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    15
+
+
+steps =
+
+       28291
+
+
+iter =
+
+    11
+
+
+steps =
+
+       50307
+
+
+iter =
+
+    17
+
+
+steps =
+
+       98749
+
+Elapsed time is 32.052055 seconds.
+
+steps =
+
+       34183
+
+
+iter =
+
+    17
+
+
+steps =
+
+       39128
+
+
+iter =
+
+    12
+
+
+steps =
+
+       51549
+
+
+iter =
+
+     7
+
+
+steps =
+
+       33805
+
+
+iter =
+
+    18
+
+
+steps =
+
+       54033
+
+
+iter =
+
+    15
+
+
+iter =
+
+     2
+
+
+steps =
+
+       31780
+
+
+iter =
+
+    18
+
+
+steps =
+
+       27136
+
+
+iter =
+
+    13
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    19
+
+
+steps =
+
+       37138
+
+
+iter =
+
+    16
+
+
+steps =
+
+       48491
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    14
+
+
+steps =
+
+       48444
+
+
+iter =
+
+     8
+
+
+steps =
+
+       19254
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    17
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    19
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    20
+
+
+steps =
+
+       59001
+
+
+iter =
+
+    17
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    18
+
+
+steps =
+
+       79677
+
+
+iter =
+
+     3
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    15
+
+
+steps =
+
+       22912
+
+
+iter =
+
+    10
+
+
+steps =
+
+       24861
+
+Elapsed time is 29.767756 seconds.
+
+steps =
+
+       29597
+
+
+iter =
+
+    18
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    16
+
+
+steps =
+
+       57759
+
+
+iter =
+
+    11
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    20
+
+
+steps =
+
+       74401
+
+
+iter =
+
+     3
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    19
+
+
+steps =
+
+       67075
+
+
+iter =
+
+     4
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    19
+
+
+steps =
+
+       33287
+
+
+iter =
+
+    17
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    12
+
+
+steps =
+
+       31396
+
+
+iter =
+
+    20
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    20
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    18
+
+
+steps =
+
+       78875
+
+Elapsed time is 32.169198 seconds.
+
+steps =
+
+       88191
+
+
+iter =
+
+     4
+
+
+steps =
+
+       48444
+
+
+iter =
+
+     5
+
+
+iter =
+
+     2
+
+
+steps =
+
+       31054
+
+Elapsed time is 30.550544 seconds.
+
+steps =
+
+       32826
+
+
+iter =
+
+    13
+
+
+steps =
+
+       34780
+
+
+iter =
+
+     6
+
+
+steps =
+
+       40370
+
+Elapsed time is 32.944964 seconds.
+
+steps =
+
+       27328
+
+
+iter =
+
+    19
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    14
+
+
+steps =
+
+       40040
+
+
+iter =
+
+     5
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     7
+
+
+steps =
+
+       36159
+
+Elapsed time is 30.912600 seconds.
+
+steps =
+
+       26707
+
+
+iter =
+
+    15
+
+
+iter =
+
+     2
+
+
+steps =
+
+       54033
+
+
+iter =
+
+     6
+
+
+steps =
+
+       25465
+
+
+iter =
+
+     8
+
+
+steps =
+
+       75157
+
+
+iter =
+
+     3
+
+
+steps =
+
+       26707
+
+
+iter =
+
+     7
+
+
+iter =
+
+     2
+
+
+steps =
+
+       24844
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29681
+
+
+iter =
+
+    16
+
+
+steps =
+
+       25193
+
+
+iter =
+
+    10
+
+
+steps =
+
+       79496
+
+
+iter =
+
+     4
+
+
+iter =
+
+     2
+
+
+steps =
+
+       37886
+
+
+iter =
+
+    17
+
+
+steps =
+
+       72352
+
+
+iter =
+
+     3
+
+
+steps =
+
+       30030
+
+
+iter =
+
+     8
+
+
+steps =
+
+       60372
+
+
+iter =
+
+     3
+
+
+steps =
+
+       34395
+
+
+iter =
+
+    11
+
+
+steps =
+
+       30470
+
+
+iter =
+
+    18
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     9
+
+
+steps =
+
+       48444
+
+
+iter =
+
+     5
+
+
+steps =
+
+       84470
+
+
+iter =
+
+     3
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     4
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    12
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    13
+
+
+steps =
+
+       76391
+
+
+iter =
+
+     4
+
+
+steps =
+
+       67490
+
+
+iter =
+
+     3
+
+
+steps =
+
+       31054
+
+
+iter =
+
+    19
+
+
+steps =
+
+       67696
+
+
+iter =
+
+     4
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    10
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     5
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     6
+
+
+steps =
+
+       34462
+
+
+iter =
+
+    20
+
+
+steps =
+
+       69559
+
+
+iter =
+
+     5
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    11
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     6
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    14
+
+
+steps =
+
+       30433
+
+
+iter =
+
+     7
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     5
+
+
+steps =
+
+       61486
+
+
+iter =
+
+     4
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     6
+
+
+steps =
+
+       27322
+
+
+iter =
+
+    12
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    15
+
+
+steps =
+
+       24223
+
+
+iter =
+
+     8
+
+
+steps =
+
+       31054
+
+
+iter =
+
+     6
+
+
+steps =
+
+       29257
+
+
+iter =
+
+     7
+
+
+steps =
+
+       30433
+
+
+iter =
+
+    16
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     9
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     5
+
+
+steps =
+
+       29375
+
+
+iter =
+
+     7
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    13
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    14
+
+
+steps =
+
+       36023
+
+
+iter =
+
+     8
+
+
+steps =
+
+       31403
+
+
+iter =
+
+    17
+
+
+steps =
+
+       26660
+
+
+iter =
+
+    10
+
+
+steps =
+
+       39749
+
+
+iter =
+
+     6
+
+
+steps =
+
+       28519
+
+Elapsed time is 33.938052 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       34429
+
+
+iter =
+
+    15
+
+
+steps =
+
+       35401
+
+
+iter =
+
+     9
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     7
+
+
+steps =
+
+       24223
+
+
+iter =
+
+     7
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     8
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    10
+
+
+steps =
+
+       27911
+
+
+iter =
+
+    18
+
+
+steps =
+
+       60244
+
+
+iter =
+
+     8
+
+
+steps =
+
+       37886
+
+
+iter =
+
+     9
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    16
+
+
+steps =
+
+       24049
+
+
+iter =
+
+    11
+
+
+steps =
+
+       33272
+
+
+iter =
+
+    11
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     9
+
+
+steps =
+
+       31519
+
+
+iter =
+
+     8
+
+
+steps =
+
+       78424
+
+
+iter =
+
+     3
+
+
+steps =
+
+       29604
+
+
+iter =
+
+    10
+
+
+steps =
+
+       35083
+
+
+iter =
+
+    17
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    19
+
+
+steps =
+
+       48444
+
+
+iter =
+
+    12
+
+
+steps =
+
+       29595
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    11
+
+
+steps =
+
+       27601
+
+
+iter =
+
+    18
+
+
+steps =
+
+       39768
+
+
+iter =
+
+    20
+
+
+steps =
+
+       40016
+
+
+iter =
+
+     9
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    12
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    13
+
+
+steps =
+
+       22980
+
+Elapsed time is 29.221864 seconds.
+
+steps =
+
+       40370
+
+
+iter =
+
+    10
+
+
+steps =
+
+       61486
+
+
+iter =
+
+     4
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    19
+
+
+steps =
+
+       29540
+
+
+iter =
+
+    14
+
+
+steps =
+
+       25373
+
+
+iter =
+
+    13
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    14
+
+
+steps =
+
+       25282
+
+
+iter =
+
+    11
+
+
+steps =
+
+       26643
+
+
+iter =
+
+    11
+
+
+steps =
+
+       61486
+
+
+iter =
+
+     5
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    12
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    13
+
+
+steps =
+
+       30047
+
+
+iter =
+
+    15
+
+
+steps =
+
+       20293
+
+
+iter =
+
+    14
+
+
+steps =
+
+       43475
+
+
+iter =
+
+    20
+
+
+iter =
+
+     2
+
+
+steps =
+
+       29191
+
+
+iter =
+
+    12
+
+
+steps =
+
+       37265
+
+Elapsed time is 31.109841 seconds.
+
+steps =
+
+       27949
+
+
+iter =
+
+    16
+
+
+steps =
+
+       38507
+
+
+iter =
+
+    15
+
+
+steps =
+
+       22622
+
+
+iter =
+
+    16
+
+
+steps =
+
+       48444
+
+
+iter =
+
+    12
+
+
+steps =
+
+       20890
+
+
+iter =
+
+    13
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     6
+
+
+steps =
+
+       22359
+
+
+iter =
+
+     7
+
+
+steps =
+
+       30349
+
+
+iter =
+
+    15
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    13
+
+
+steps =
+
+       36023
+
+
+iter =
+
+     8
+
+
+steps =
+
+       27328
+
+
+iter =
+
+    16
+
+
+steps =
+
+       25197
+
+
+iter =
+
+    17
+
+
+steps =
+
+       45959
+
+
+iter =
+
+    14
+
+
+steps =
+
+       28570
+
+
+iter =
+
+     9
+
+
+iter =
+
+     2
+
+
+steps =
+
+       72721
+
+
+iter =
+
+     3
+
+
+steps =
+
+       51112
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    15
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    14
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    10
+
+
+steps =
+
+       34159
+
+
+iter =
+
+    17
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    18
+
+
+steps =
+
+       55986
+
+
+iter =
+
+     3
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    18
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    19
+
+
+steps =
+
+       70180
+
+
+iter =
+
+    18
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    16
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    15
+
+
+steps =
+
+       30301
+
+
+iter =
+
+    20
+
+
+steps =
+
+       57759
+
+
+iter =
+
+     4
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    11
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     4
+
+
+steps =
+
+       24223
+
+Elapsed time is 26.732550 seconds.
+
+steps =
+
+       54654
+
+
+iter =
+
+     5
+
+
+steps =
+
+       24740
+
+
+iter =
+
+    17
+
+
+steps =
+
+       16149
+
+
+iter =
+
+    18
+
+
+steps =
+
+       30682
+
+
+iter =
+
+    16
+
+
+steps =
+
+       37877
+
+
+iter =
+
+    12
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    20
+
+
+steps =
+
+       42854
+
+
+iter =
+
+     5
+
+
+steps =
+
+       22534
+
+
+iter =
+
+    19
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    19
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    17
+
+
+steps =
+
+       34166
+
+
+iter =
+
+     6
+
+
+steps =
+
+       27623
+
+
+iter =
+
+    20
+
+
+steps =
+
+       37108
+
+Elapsed time is 31.086803 seconds.
+
+steps =
+
+       33429
+
+
+iter =
+
+    13
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     7
+
+
+steps =
+
+       52170
+
+
+iter =
+
+    20
+
+
+steps =
+
+       21402
+
+Elapsed time is 34.479041 seconds.
+
+iter =
+
+     2
+
+
+steps =
+
+       28571
+
+
+iter =
+
+    18
+
+
+steps =
+
+       39749
+
+
+iter =
+
+     6
+
+
+steps =
+
+       22872
+
+
+iter =
+
+     7
+
+
+steps =
+
+       27328
+
+Elapsed time is 31.068067 seconds.
+
+steps =
+
+       26707
+
+
+iter =
+
+    19
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    20
+
+
+steps =
+
+       32296
+
+
+iter =
+
+    14
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     8
+
+
+steps =
+
+       61308
+
+
+iter =
+
+     3
+
+
+iter =
+
+     2
+
+
+steps =
+
+       31058
+
+
+iter =
+
+     9
+
+
+steps =
+
+       29191
+
+
+iter =
+
+     8
+
+
+steps =
+
+       21738
+
+
+iter =
+
+     9
+
+
+steps =
+
+       27328
+
+Elapsed time is 30.886803 seconds.
+
+steps =
+
+       36644
+
+
+iter =
+
+    15
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     4
+
+
+steps =
+
+       46255
+
+
+iter =
+
+    16
+
+
+steps =
+
+       74509
+
+
+iter =
+
+     3
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    10
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    10
+
+
+steps =
+
+       22089
+
+
+iter =
+
+    11
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    11
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     5
+
+
+iter =
+
+     2
+
+
+steps =
+
+       44717
+
+
+iter =
+
+    17
+
+
+steps =
+
+       47201
+
+
+iter =
+
+     4
+
+
+steps =
+
+       45959
+
+
+iter =
+
+     6
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    12
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    13
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    18
+
+
+steps =
+
+       33634
+
+
+iter =
+
+    12
+
+
+steps =
+
+       68826
+
+
+iter =
+
+     3
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    19
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     5
+
+
+steps =
+
+       33538
+
+
+iter =
+
+     7
+
+
+steps =
+
+       26707
+
+
+iter =
+
+    14
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    15
+
+
+steps =
+
+       26804
+
+
+iter =
+
+    20
+
+
+steps =
+
+       41473
+
+
+iter =
+
+    13
+
+
+steps =
+
+       34159
+
+
+iter =
+
+     8
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    16
+
+
+steps =
+
+       67075
+
+
+iter =
+
+     4
+
+
+steps =
+
+       31675
+
+
+iter =
+
+     6
+
+
+steps =
+
+       25227
+
+
+iter =
+
+     9
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    17
+
+
+steps =
+
+       28570
+
+Elapsed time is 31.404617 seconds.
+
+steps =
+
+       60244
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29812
+
+
+iter =
+
+     5
+
+
+steps =
+
+       25465
+
+
+iter =
+
+    10
+
+
+steps =
+
+       24223
+
+
+iter =
+
+     6
+
+
+steps =
+
+       38536
+
+
+iter =
+
+    15
+
+
+steps =
+
+       22980
+
+
+iter =
+
+    11
+
+
+steps =
+
+       29044
+
+
+iter =
+
+    18
+
+
+steps =
+
+       27949
+
+
+iter =
+
+     7
+
+
+steps =
+
+       46580
+
+
+iter =
+
+     7
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    19
+
+
+steps =
+
+       23601
+
+
+iter =
+
+     8
+
+
+steps =
+
+       72665
+
+
+iter =
+
+     8
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    16
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    12
+
+
+steps =
+
+       21738
+
+
+iter =
+
+    13
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    20
+
+
+steps =
+
+       27328
+
+
+iter =
+
+     9
+
+
+steps =
+
+       24223
+
+
+iter =
+
+     9
+
+
+steps =
+
+       21117
+
+
+iter =
+
+    10
+
+
+steps =
+
+       59164
+
+
+iter =
+
+    17
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32917
+
+Elapsed time is 28.684135 seconds.
+
+steps =
+
+       42233
+
+
+iter =
+
+    18
+
+
+steps =
+
+       41488
+
+
+iter =
+
+    10
+
+
+steps =
+
+       36039
+
+
+iter =
+
+    11
+
+
+steps =
+
+       49065
+
+
+iter =
+
+    15
+
+
+steps =
+
+       17391
+
+
+iter =
+
+    16
+
+
+steps =
+
+       40991
+
+
+iter =
+
+    11
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    19
+
+
+steps =
+
+       19254
+
+
+iter =
+
+    20
+
+
+iter =
+
+     2
+
+
+steps =
+
+       36692
+
+
+iter =
+
+    12
+
+
+steps =
+
+       46580
+
+
+iter =
+
+    12
+
+
+steps =
+
+       29336
+
+Elapsed time is 29.538910 seconds.
+
+steps =
+
+       25465
+
+
+iter =
+
+    17
+
+
+steps =
+
+       22033
+
+
+iter =
+
+    18
+
+
+steps =
+
+       69277
+
+
+iter =
+
+     3
+
+
+steps =
+
+       28570
+
+
+iter =
+
+    13
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    13
+
+
+steps =
+
+       18633
+
+
+iter =
+
+    14
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    19
+
+
+iter =
+
+     2
+
+
+steps =
+
+       41556
+
+
+iter =
+
+    20
+
+
+steps =
+
+       36023
+
+
+iter =
+
+    14
+
+
+steps =
+
+       32998
+
+
+iter =
+
+    15
+
+
+steps =
+
+       29191
+
+Elapsed time is 27.500160 seconds.
+
+steps =
+
+       59623
+
+
+iter =
+
+     4
+
+
+steps =
+
+       59014
+
+
+iter =
+
+     3
+
+
+steps =
+
+       46580
+
+
+iter =
+
+    15
+
+
+steps =
+
+       47201
+
+
+iter =
+
+    16
+
+
+steps =
+
+       20878
+
+
+iter =
+
+    17
+
+
+steps =
+
+       47823
+
+
+iter =
+
+     4
+
+
+steps =
+
+       54654
+
+
+iter =
+
+     5
+
+
+steps =
+
+       19317
+
+
+iter =
+
+     6
+
+
+steps =
+
+       40991
+
+
+iter =
+
+     5
+
+
+steps =
+
+       51870
+
+
+iter =
+
+    16
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    17
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    18
+
+
+steps =
+
+       39128
+
+
+iter =
+
+     7
+
+
+steps =
+
+       56004
+
+
+iter =
+
+    19
+
+
+steps =
+
+       37265
+
+
+iter =
+
+     6
+
+
+steps =
+
+       31675
+
+
+iter =
+
+    18
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    19
+
+
+steps =
+
+       40370
+
+
+iter =
+
+     7
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     8
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    20
+
+
+steps =
+
+       26086
+
+
+iter =
+
+     8
+
+
+steps =
+
+       51549
+
+
+iter =
+
+     9
+
+
+steps =
+
+       26086
+
+
+iter =
+
+    20
+
+
+steps =
+
+       22980
+
+Elapsed time is 30.151110 seconds.
+
+steps =
+
+       34159
+
+Elapsed time is 33.708410 seconds.
+
+steps =
+
+       25465
+
+
+iter =
+
+     9
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    10
+
+
+steps =
+
+       34928
+
+
+iter =
+
+    10
+
+
+steps =
+
+       20496
+
+
+iter =
+
+    11
+
+
+steps =
+
+       26384
+
+
+iter =
+
+    11
+
+
+iter =
+
+     2
+
+
+steps =
+
+       32917
+
+
+iter =
+
+    12
+
+
+steps =
+
+       33538
+
+
+iter =
+
+    12
+
+
+steps =
+
+       45959
+
+
+iter =
+
+    13
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    13
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    14
+
+
+steps =
+
+       99345
+
+
+iter =
+
+     3
+
+
+steps =
+
+       38594
+
+
+iter =
+
+    15
+
+
+steps =
+
+       34780
+
+
+iter =
+
+    14
+
+
+steps =
+
+       22359
+
+
+iter =
+
+    15
+
+
+steps =
+
+       24844
+
+
+iter =
+
+    16
+
+
+steps =
+
+       26793
+
+
+iter =
+
+    16
+
+
+steps =
+
+       90675
+
+
+iter =
+
+     4
+
+
+steps =
+
+       35401
+
+
+iter =
+
+    17
+
+
+steps =
+
+       23601
+
+
+iter =
+
+    17
+
+
+steps =
+
+       50307
+
+
+iter =
+
+     5
+
+
+steps =
+
+       27917
+
+
+iter =
+
+    18
+
+
+steps =
+
+       42854
+
+
+iter =
+
+    18
+
+
+steps =
+
+       29812
+
+
+iter =
+
+    19
+
+
+steps =
+
+       36644
+
+
+iter =
+
+     6
+
+
+steps =
+
+       49065
+
+
+iter =
+
+     7
+
+
+steps =
+
+       45703
+
+
+iter =
+
+    19
+
+
+steps =
+
+       35805
+
+
+iter =
+
+    20
+
+
+steps =
+
+       34159
+
+Elapsed time is 32.183159 seconds.
+
+steps =
+
+       29812
+
+
+iter =
+
+     8
+
+
+steps =
+
+       57138
+
+
+iter =
+
+    20
+
+
+steps =
+
+       18012
+
+Elapsed time is 29.909096 seconds.
+
+steps =
+
+       34780
+
+
+iter =
+
+     9
+
+
+steps =
+
+       19875
+
+
+iter =
+
+    10
+
+
+steps =
+
+       18012
+
+
+iter =
+
+    11
+
+
+steps =
+
+       32786
+
+
+iter =
+
+    12
+
+
+steps =
+
+       36644
+
+
+iter =
+
+    13
+
+
+steps =
+
+       46561
+
+
+iter =
+
+    14
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    15
+
+
+steps =
+
+       24223
+
+
+iter =
+
+    16
+
+
+steps =
+
+       27949
+
+
+iter =
+
+    17
+
+
+steps =
+
+       29946
+
+
+iter =
+
+    18
+
+
+steps =
+
+       42233
+
+
+iter =
+
+    19
+
+
+steps =
+
+       30015
+
+
+iter =
+
+    20
+
+
+steps =
+
+       27328
+
+Elapsed time is 33.222992 seconds.
+>> >> 
