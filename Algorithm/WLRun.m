@@ -64,7 +64,6 @@ normalizedI = zeros(size(I,1),size(I,2));
 for i = 1:length(N)
     if N(i) ~= 0
         normalizedI(i,:) = I(i,:)./N(i);
-        h(:,:,n) = h(:,:,n)./N(i);
     end
 end
 
@@ -109,15 +108,17 @@ else
         c_cm = 2.998*10^10;
 
         B = zeros(length(harmFrequencies),1);
+        
         % We assumed B was 1 up until this point, now we make the adjustment
         % for each temperature
+        tempAdjustedI = zeros(size(normalizedI));
         for i = 1:length(B)
             B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
-            h(:,:,i) = h(:,:,i).*1/B(i);
+            vibWeight = squeeze(normalizedI.*(double(h(:,:,i))./65535)).*(1/B(i));
+            tempAdjustedI = tempAdjustedI + vibWeight;
         end
         
-        normalizedI = sum(h,3);
-        
+        % normalizedI = tempAdjustedI;
 
         % Do a Laplace transform to make I(v,E) into I(v,T)
         % Z is partition function
@@ -127,10 +128,10 @@ else
             Z = Z+DOS(i)*Tdep;
         end
 
-        I_T = zeros(1,length(all_wn)-1);
+        I_T = zeros(1,length(all_wn)-1);n
         for i = 1:length(DOS)
             Tdep = exp(-energies_J(i)/(kb*T(idx_T)));
-            next = normalizedI(i,:)*DOS(i)*Tdep;
+            next = tempAdjustedI(i,:)*DOS(i)*Tdep;
             I_T = I_T + next;
         end
         I_T = I_T*(1/Z);

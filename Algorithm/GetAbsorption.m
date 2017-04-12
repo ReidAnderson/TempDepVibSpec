@@ -1,10 +1,12 @@
-function [output spectra] = GetAbsorption(harmFrequencies, anharmMatrix, IRInt, occVec, all_wn, E, spectra)
+function [output EspectraWeights] = GetAbsorption(harmFrequencies, anharmMatrix, IRInt, occVec, all_wn, E, spectra, spectraWeights)
 % Broadening function used in generating the spectrum
 lor = @(x,x0,s) (1/pi)*(0.5*s./((x-x0).^2+(0.5*s).^2));
 
 % Speed of light in centimeters
 c_cm = 2.9979 *10^10;
 output = zeros(1,length(all_wn));
+
+vibWeight = squeeze(spectra.*(double(spectraWeights(E,:,:))./65535));
 
 for k=1:length(harmFrequencies)
     del_E = harmFrequencies(k) + 2*anharmMatrix(k,k) + 2*anharmMatrix(k,k)*occVec(k);
@@ -19,7 +21,12 @@ for k=1:length(harmFrequencies)
     
     Evk_contrib = sigma_IR.*lor(c_cm.*all_wn,wn_to_hz(del_E),3.3E11);
     
-    spectra(E,:,k) = Evk_contrib;
-    
-    output = output + Evk_contrib;
+    vibWeight(:,k) = vibWeight(:,k) + Evk_contrib';
+end
+
+test = 2+2;
+output = sum(vibWeight,2);
+EspectraWeights = uint16((vibWeight./output).*65535);
+test = 1+1;
+output = output';
 end
