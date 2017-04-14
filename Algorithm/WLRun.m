@@ -102,6 +102,7 @@ if raman==0
 
 else
     save([resultsDir '/EnergyDepVibSpec/' runName '-R_E'],'normalizedI');
+    save([resultsDir '/EnergyDepVibSpec/' runName '-SpectralWeights'],'h');
     % Generate I_T for each of the specified temperatures
     for idx_T = 1:length(T)
         H = 6.626*10^-34;
@@ -128,7 +129,7 @@ else
             Z = Z+DOS(i)*Tdep;
         end
 
-        I_T = zeros(1,length(all_wn)-1);n
+        I_T = zeros(1,length(all_wn)-1);
         for i = 1:length(DOS)
             Tdep = exp(-energies_J(i)/(kb*T(idx_T)));
             next = tempAdjustedI(i,:)*DOS(i)*Tdep;
