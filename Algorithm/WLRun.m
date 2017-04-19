@@ -102,15 +102,18 @@ if raman==0
 
 else
     save([resultsDir '/EnergyDepVibSpec/' runName '-R_E'],'normalizedI');
+    save([resultsDir '/EnergyDepVibSpec/' runName '-SpectralWeights'],'h');
     % Generate I_T for each of the specified temperatures
     for idx_T = 1:length(T)
         H = 6.626*10^-34;
         c_cm = 2.998*10^10;
 
         B = zeros(length(harmFrequencies),1);
+
         normalizedI = zeros(size(normalizedI));
         % We assumed B was 1 up until this point, now we make the adjustment
         % for each temperature
+        tempAdjustedI = zeros(size(normalizedI));
         for i = 1:length(B)
             normalizedModeI = load([resultsDir '/EnergyDepVibSpec/' runName '-vibMode-' num2str(i) '-R_E']);
             B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
@@ -118,7 +121,7 @@ else
             normalizedI = normalizedI+normalizedModeI;
         end
         
-        
+        % normalizedI = tempAdjustedI;
 
         % Do a Laplace transform to make I(v,E) into I(v,T)
         % Z is partition function
@@ -131,7 +134,7 @@ else
         I_T = zeros(1,length(all_wn)-1);
         for i = 1:length(DOS)
             Tdep = exp(-energies_J(i)/(kb*T(idx_T)));
-            next = normalizedI(i,:)*DOS(i)*Tdep;
+            next = tempAdjustedI(i,:)*DOS(i)*Tdep;
             I_T = I_T + next;
         end
         I_T = I_T*(1/Z);
