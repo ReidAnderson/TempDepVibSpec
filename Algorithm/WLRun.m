@@ -15,6 +15,9 @@ end
 if ~exist([resultsDir '/DOS'],'dir')
    mkdir([resultsDir '/DOS']);
 end
+if ~exist([resultsDir '/EnergyDepVibSpec'],'dir')
+    mkdir([resultsDir '/EnergyDepVibSpec']);
+end
 
 if raman == 1
     load([freqDir 'Freqs/' molAbbrev freqRun '-RamanAct.mat']);
@@ -60,15 +63,12 @@ all_wn = vmin:V_gr:vmax;
 % Dummy uncertainty values for now
 % DOS_err = ones(size(DOS));
 [I N h] = IntensityWL(harmFrequencies,anharmMatrix,VibInt,zeropoint,zeropoint+upperEnergy,vmin,vmax,DOS,V_gr,binSize,IRsteps);
+SaveSpectraByMode(harmFrequencies,anharmMatrix,VibInt,zeropoint,zeropoint+upperEnergy,vmin,vmax,V_gr,binSize,h,N, resultsDir,runName);
 normalizedI = zeros(size(I,1),size(I,2));
 for i = 1:length(N)
     if N(i) ~= 0
         normalizedI(i,:) = I(i,:)./N(i);
     end
-end
-
-if ~exist([resultsDir '/EnergyDepVibSpec'],'dir')
-    mkdir([resultsDir '/EnergyDepVibSpec']);
 end
 
 if raman==0
@@ -108,10 +108,14 @@ else
         c_cm = 2.998*10^10;
 
         B = zeros(length(harmFrequencies),1);
+        normalizedI = zeros(size(normalizedI));
         % We assumed B was 1 up until this point, now we make the adjustment
         % for each temperature
         for i = 1:length(B)
+            normalizedModeI = load([resultsDir '/EnergyDepVibSpec/' runName '-vibMode-' num2str(i) '-R_E']);
             B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
+            normalizedModeI=normalizedModeI.*B(i);
+            normalizedI = normalizedI+normalizedModeI;
         end
         
         
