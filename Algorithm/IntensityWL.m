@@ -1,4 +1,4 @@
-function [I freq spectraWeights] = IntensityWL(harmFreq, anharmMat, IRInt, Emin, Emax, vmin, vmax, DOS,v_gr,binSize,steps)
+function [I freq harmModesUsed] = IntensityWL(harmFreq, anharmMat, IRInt, Emin, Emax, vmin, vmax, DOS,v_gr,binSize,steps)
 numSteps = steps;
 all_wn = vmin+v_gr:v_gr:vmax;
 %n = GetRandomVector(harmFreq,anharmMat,Emin,Emax,binSize,3000,length(harmFreq));
@@ -10,14 +10,7 @@ I = zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr);
 E_freq = zeros(ceil((Emax-Emin)/binSize),1);
 harmModesUsed = uint16(zeros(numSteps,length(harmFreq)));
 
-for i = 1:length(IRInt)
-  if IRInt(i) > 0
-    harmModesUsed = [harmModesUsed i];
-  end
-end
-
 spectra = zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr);
-spectraWeights = uint16(zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr,length(harmFreq)));
 
 tic
 for steps=1:numSteps

@@ -1,6 +1,3 @@
-## Author: Reid Anderson <reid@reid-HP-Pavilion-dv6-Notebook-PC>
-## Created: 2017-04-17
-
 function [retval] = SaveSpectraByMode (harmFrequencies,anharmMatrix,VibInt,Emin,Emax,vmin,vmax,v_gr,binSize,occVecs,E_freq,resultsDir, runName)
 numSteps = length(occVecs);
 all_wn = vmin+v_gr:v_gr:vmax;
@@ -14,7 +11,7 @@ output = zeros(1,length(all_wn));
 map = 0;
 
 tic
-for k = 1:length(harmFrequencies)
+parfor k = 1:length(harmFrequencies)
   I = zeros(ceil((Emax-Emin)/binSize),(vmax-vmin)/v_gr);
   for steps=1:numSteps
       occVec = double(occVecs(steps,:));
@@ -45,9 +42,9 @@ for k = 1:length(harmFrequencies)
           normalizedI(i,:) = I(i,:)./E_freq(i);
       end
   end
-  save([resultsDir '/EnergyDepVibSpec/' runName '-vibMode-' num2str(k) '-R_E'],'normalizedI');
+  parsave([resultsDir '/EnergyDepVibSpec/' runName '-vibMode-' num2str(k) '-R_E'],normalizedI);
 end
 freq=E_freq;
 toc
 retval = 1;
-endfunction
+end

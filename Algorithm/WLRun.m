@@ -110,19 +110,16 @@ else
 
         B = zeros(length(harmFrequencies),1);
 
-        normalizedI = zeros(size(normalizedI));
+        normalizedI2 = zeros(size(normalizedI));
         % We assumed B was 1 up until this point, now we make the adjustment
         % for each temperature
-        tempAdjustedI = zeros(size(normalizedI));
         for i = 1:length(B)
             normalizedModeI = load([resultsDir '/EnergyDepVibSpec/' runName '-vibMode-' num2str(i) '-R_E']);
             B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
             normalizedModeI=normalizedModeI.*B(i);
-            normalizedI = normalizedI+normalizedModeI;
+            normalizedI2 = normalizedI2+normalizedModeI;
         end
         
-        % normalizedI = tempAdjustedI;
-
         % Do a Laplace transform to make I(v,E) into I(v,T)
         % Z is partition function
         Z = 0;
@@ -134,7 +131,7 @@ else
         I_T = zeros(1,length(all_wn)-1);
         for i = 1:length(DOS)
             Tdep = exp(-energies_J(i)/(kb*T(idx_T)));
-            next = tempAdjustedI(i,:)*DOS(i)*Tdep;
+            next = normalizedI2(i,:)*DOS(i)*Tdep;
             I_T = I_T + next;
         end
         I_T = I_T*(1/Z);

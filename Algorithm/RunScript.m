@@ -7,7 +7,7 @@ molAbbrev = 'CHCl3';
 DOSExists = 1;
 runName = '4-17-2017-Raman';
 % How many steps do we want to take in the Monte Carlo that computes the spectra?
-IRSteps = 50000;
+IRSteps = 1000000;
 % How many iterations of the WL do we want to perform, and what's the maximum number of steps in each?
 DOSIters = 20;
 DOSSteps = 2000000;
