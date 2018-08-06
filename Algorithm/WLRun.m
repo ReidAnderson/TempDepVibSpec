@@ -116,7 +116,8 @@ else
         for i = 1:length(B)
             normalizedModeI = load([resultsDir '/EnergyDepVibSpec/' runName '-vibMode-' num2str(i) '-R_E']);
             B(i) = 1-exp(-(H*harmFrequencies(i)*c_cm)/(kb*T(idx_T)));
-            normalizedModeI=normalizedModeI.*B(i);
+            i
+            normalizedModeI=normalizedModeI.normalizedI.*B(i);
             normalizedI2 = normalizedI2+normalizedModeI;
         end
         
